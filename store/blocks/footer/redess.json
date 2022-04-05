@@ -1,0 +1,113 @@
+{
+    "flex-layout.row#redess": {
+      "children": [
+        "flex-layout.col#redess1",
+        "flex-layout.col#redess2",
+        "flex-layout.col#redess3",
+        "flex-layout.col#redess4",
+        "flex-layout.col#redess5"
+      ],
+      "props": {
+        "blockClass": "redess"
+      }
+    },
+
+    "flex-layout.col#redess1": {
+      "children": [
+        "image#redes1"
+      ],
+      "props": {
+        "blockClass": "redess",
+        "paddingLeft": 3,
+        "paddingRight": 2
+      }
+    },
+    "image#redes1": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/facebook.png",
+        "link":{
+          "url":"https://www.facebook.com/bicimundomx",
+          "newTab":true
+        },
+        "maxHeight": "30px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess2": {
+      "children": [
+        "image#redes2"
+      ],"props":{
+        "paddingLeft": 3,
+        "paddingRight": 2
+      }
+    },
+    "image#redes2": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/instagram.png",
+        "link":{
+          "url":"https://www.instagram.com/bicimundomx/",
+          "newTab":true
+        },
+        "maxHeight": "32px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess3": {
+      "children": [
+        "image#redes3"
+      ],"props":{
+        "paddingLeft": 3,
+        "paddingRight": 2
+      }
+    },
+    "image#redes3": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/youtube.png",
+        "link":{
+          "url":"https://www.youtube.com/user/bicimundomx",
+          "newTab":true
+        },
+        "maxHeight": "35px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess4": {
+      "children": [
+        "image#redes4"
+      ],"props":{
+        "paddingLeft": 3,
+        "paddingRight": 2
+      }
+    },
+    "image#redes4": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/twitter.png",
+        "link":{
+          "url":"https://twitter.com/bicimundomx",
+          "newTab":true
+        },
+        "maxHeight": "32px",
+        "blockClass" : "imgSocial"
+      }
+    },
+    "flex-layout.col#redess5": {
+      "children": [
+        "image#redes5"
+      ],"props":{
+        "paddingLeft": 3,
+        "paddingRight": 2
+      }
+    },
+    "image#redes5": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/whatsapp.png",
+        "link":{
+          "url":"https://api.whatsapp.com/send/?phone=5217971037260&text&app_absent=0",
+          "newTab":true
+        },
+        
+        "maxHeight": "32px",
+        "blockClass" : "imgSocial"
+      }
+    }
+  }

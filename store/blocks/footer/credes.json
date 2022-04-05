@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#credes": {
+      "children": [
+        "flex-layout.col#r1",
+        "flex-layout.col#r2"  
+      ],
+      "props": {
+        "blockClass": "credes",
+        "marginTop": 5
+      }
+    },
+  
+    "flex-layout.col#r1": {
+      "children": [
+        "image#re1"
+      ]
+    },
+    "image#re1": {
+      "props": {
+        "src": "assets/acertify.png",
+        "maxHeight": "32px",
+        "blockClass":"imgcredes"
+      }
+    },
+
+    "flex-layout.col#r2": {
+      "children": [
+        "image#re2"
+      ]
+    },
+    "image#re2": {
+      "props": {
+        "src": "assets/selloconf.png",
+        "maxHeight": "32px",
+        "blockClass":"imgcredes"
+      }
+    }
+  }

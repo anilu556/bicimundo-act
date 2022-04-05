@@ -1,0 +1,29 @@
+{
+    "store.custom#textoinst":{
+        "children":[
+            "flex-layout.row#textoinst"
+        ]
+    },
+
+    "flex-layout.row#textoinst":{
+        "children":[
+            "flex-layout.col#contenidoinst"
+        ],"props":{
+            "blockClass":"rowtext"
+        }
+    },
+    "flex-layout.col#contenidoinst":{
+        "children":[
+            "rich-text#conteido"
+        ],"props":{
+            "blockClass":"coltext"
+        }
+    },
+    "rich-text#conteido":{
+        "props":{
+            "text":"### Títitulo \n #### Subtítulo \n Texto",
+            "blockClass":"textcontent"
+        }
+    }
+
+}

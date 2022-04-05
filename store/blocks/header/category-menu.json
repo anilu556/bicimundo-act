@@ -1,0 +1,549 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "flex-layout.col#mmen",
+      "menu-item#marcas",
+      "menu-item#montana",
+      "menu-item#carretera",
+      "menu-item#ciudad",
+      "menu-item#infantil",
+      "menu-item#ofertas"
+    ]
+  },
+  "flex-layout.col#mmen":{
+    "children":[
+      "flex-layout.col#trigger-mega-menu",
+      "flex-layout.row#mega-menu"
+    ]
+  },
+  "menu-item#category": {
+    "props": {
+      "blockClass":["menprin","menicon"],
+      "id": "menu-item-category",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "ELIGE POR CATEGORÍA",
+        "text": "ELIGE POR CATEGORÍA "
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-desk"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-desk": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+
+
+  "menu-item#marcas": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idmarcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Marcas",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      }
+    }
+  },
+
+  "menu-item#montana": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idmontana",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Montana",
+        "noFollow": false,
+        "tagTitle": "MONTAÑA",
+        "text": "MONTAÑA"
+      }
+    }
+  },
+
+  "menu-item#carretera": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idcarretera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Carretera",
+        "noFollow": false,
+        "tagTitle": "CARRETERA",
+        "text": "CARRETERA"
+      }
+    }
+  },
+
+  "menu-item#ciudad": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idciudad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ciudad",
+        "noFollow": false,
+        "tagTitle": "CIUDAD",
+        "text": "CIUDAD"
+      }
+    }
+  },
+
+  "menu-item#infantil": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idinfantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "INFANTIL",
+        "text": "INFANTIL"
+      }
+    }
+  },
+
+  "menu-item#ofertas": {
+    "props": {
+      "blockClass":"menprin",
+      "id": "idofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ofertas",
+        "noFollow": false,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+
+
+
+  "menu-item#cats-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Catergorías",
+        "text": "ELIGE POR CATEGORÍAS"
+      },
+      "blockClass":"menprinfoo"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#catsmob"]
+  },
+  "vtex.menu@2.x:submenu.accordion#catsmob": {
+    "children": ["vtex.menu@2.x:menu#catsmobile"],
+    "props":{
+      "blockClass":"submendrawh"
+    }
+  },
+
+  "vtex.menu@2.x:menu#catsmobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "tituloMenu"
+    },
+    "children": [
+      "drawer#accesorios",
+      "drawer#bicicletas",
+      "drawer#cambios",
+      "drawer#componentes",
+      "drawer#cuadros",
+      "drawer#seguridad",
+      "drawer#frenos",
+      "drawer#moto",
+      "drawer#reparacion",
+      "drawer#ropa",
+      "drawer#ruedas" 
+    ]
+  },
+
+  "drawer#accesorios":{
+    "props":{
+      "blockClass":["acces","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#acces"
+    ]
+  },
+  "vtex.menu@2.x:menu#acces": {
+    "props": {
+      "categoryId": 1,
+      "orientation": "vertical",
+      "blockClass": ["acces","estilo"]
+    }
+  },
+
+  "drawer#bicicletas":{
+    "props":{
+      "blockClass":["bici","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#bici"
+    ]
+  },
+  "vtex.menu@2.x:menu#bici": {
+    "props": {
+      "categoryId": 2,
+      "orientation": "vertical",
+      "blockClass": ["bici","estilo"]
+    }
+  },
+
+  "drawer#cambios":{
+    "props":{
+      "blockClass":["cambios","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#cambios"
+    ]
+  },
+  "vtex.menu@2.x:menu#cambios": {
+    "props": {
+      "categoryId": 3,
+      "orientation": "vertical",
+      "blockClass": ["cambios","estilo"]
+    }
+  },
+
+  "drawer#componentes":{
+    "props":{
+      "blockClass":["comp","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#comp"
+    ]
+  },
+  "vtex.menu@2.x:menu#comp": {
+    "props": {
+      "categoryId": 4,
+      "orientation": "vertical",
+      "blockClass": ["comp","estilo"]
+    }
+  },
+
+  "drawer#cuadros":{
+    "props":{
+      "blockClass":["cuadros","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#cuadros"
+    ]
+  },
+  "vtex.menu@2.x:menu#cuadros": {
+    "props": {
+      "categoryId": 1,
+      "orientation": "vertical",
+      "blockClass": ["cuadros","estilo"]
+    }
+  },
+
+  "drawer#seguridad":{
+    "props":{
+      "blockClass":["segu","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#segu"
+    ]
+  },
+  "vtex.menu@2.x:menu#segu": {
+    "props": {
+      "categoryId": 6,
+      "orientation": "vertical",
+      "blockClass": ["segu","estilo"]
+    }
+  },
+
+  "drawer#frenos":{
+    "props":{
+      "blockClass":["frenos","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#frenos"
+    ]
+  },
+  "vtex.menu@2.x:menu#frenos": {
+    "props": {
+      "categoryId": 7,
+      "orientation": "vertical",
+      "blockClass": ["frenos","estilo"]
+    }
+  },
+
+  "drawer#moto":{
+    "props":{
+      "blockClass":["moto","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#moto"
+    ]
+  },
+  "vtex.menu@2.x:menu#moto": {
+    "props": {
+      "categoryId": 11,
+      "orientation": "vertical",
+      "blockClass": ["moto","estilo"]
+    }
+  },
+
+  "drawer#reparacion":{
+    "props":{
+      "blockClass":["repa","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#repa"
+    ]
+  },
+  "vtex.menu@2.x:menu#repa": {
+    "props": {
+      "categoryId": 8,
+      "orientation": "vertical",
+      "blockClass": ["repa","estilo"]
+    }
+  },
+
+  "drawer#ropa":{
+    "props":{
+      "blockClass":["ropa","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#ropa"
+    ]
+  },
+  "vtex.menu@2.x:menu#ropa": {
+    "props": {
+      "categoryId": 9,
+      "orientation": "vertical",
+      "blockClass": ["ropa","estilo"]
+    }
+  },
+
+  "drawer#ruedas":{
+    "props":{
+      "blockClass":["ruedas","estilo"]
+    },
+    "children":[
+      "vtex.menu@2.x:menu#ruedas"
+    ]
+  },
+  "vtex.menu@2.x:menu#ruedas": {
+    "props": {
+      "categoryId": 10,
+      "orientation": "vertical",
+      "blockClass": ["ruedas","estilo"]
+    }
+  }
+  
+}

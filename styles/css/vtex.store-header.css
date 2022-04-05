@@ -1,0 +1,339 @@
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 44px;
+  padding-bottom: 0.5rem;
+  background-color: #385DAE;
+  padding-right: 5%;
+  padding-left: 5%;
+  justify-content: space-between;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--itemaccesos){
+  justify-content: flex-start;
+}
+
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    background: rgba(56, 93, 174, 1);
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #f0f0f0;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}
+
+
+/*------------------ Inicio estilo desktop ---------------------------*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--colwish){
+  padding-top: 3px;
+}
+
+:global(.vtex-login-2-x-label),
+:global(.vtex-rich-text-0-x-wrapper--textowish)
+  :global(.vtex-rich-text-0-x-paragraph)
+    :global(.vtex-rich-text-0-x-link){
+    color: #ffffff;
+    text-decoration: none;
+}
+
+:global(.vtex-login-2-x-profileIcon){
+  display: none;
+}
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label)::before{
+      content:url(assets/login.png);
+}
+
+
+:global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+:global(.vtex-minicart-2-x-cartIcon){
+  display: none;
+}
+
+
+:global(.vtex-minicart-2-x-openIconContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label)::before{
+      content: url(assets/cart.png);
+    }
+
+
+:global(.vtex-minicart-2-x-openIconContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+
+:global(.vtex-store-components-3-x-searchBarContainer){
+  max-width: 100%;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group){
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+  }
+
+
+:global(.vtex-store-components-3-x-searchIcon){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon--search)::before{
+   content: url(assets/icosearch.svg);
+   padding-top: 3px;
+}
+
+:global(.vtex-store-drawer-0-x-menuIcon){
+  color: #ffffff;
+}
+
+@media (max-width: 1024px){
+
+  :global(.vtex-store-components-3-x-searchBarIcon--search)::before{
+    content: url(assets/headresp/searchmob.svg);
+    
+ }
+
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button)
+    :global(.vtex-button__label)::before{
+      content:url(assets/headresp/usermob.svg);
+      padding-top: 4px;
+}
+
+
+
+:global(.vtex-minicart-2-x-openIconContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label)::before{
+      content: url(assets/headresp/carritomob.svg);
+     
+    }
+
+  :global(.vtex-minicart-2-x-openIconContainer){
+    padding-left: 0px;
+  }
+
+  :global(.vtex-store-drawer-0-x-menuIcon){
+    height: 17px;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--imgwishmob){
+    padding-top: 2px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+    height: 70px;
+  }
+
+  :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+    font-size: 12px !important;    
+  }
+
+  :global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group){
+    height: 35px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+  }
+
+  :global(.vtex-store-components-3-x-searchBarContainer){
+    width: 95% !important;
+  }
+  
+
+  :global(.vtex-store-components-3-x-notificationContent):first-child{
+    font-size: 12px !important;
+  }
+
+  :global(.vtex-store-drawer-0-x-opened){
+    background-color: #0F2A65;
+  }
+  
+  :global(.vtex-store-drawer-0-x-closeIcon),
+  :global(.vtex-menu-2-x-styledLink--menprin){
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  :global(.vtex-login-2-x-profile){
+    color: #ffffff;
+  }
+}
+
+:global(.vtex-menu-2-x-submenuWrapper){
+  background-color: #0F2A65;
+  border-top: 3px solid #EB0045;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menprinfoo){
+  color: #ffffff;
+}
+:global(.vtex-menu-2-x-accordionIcon--isClosed){
+  content: url(assets/expand18.png);
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submendrawh)
+  :global(.vtex-menu-2-x-styledLinkContainer--itementfoo){
+    margin: 0%;
+    padding-left: 15px;
+  }
+
+:global(.vtex-menu-2-x-submenuAccordion--submendrawh)
+  :global(.vtex-menu-2-x-styledLinkContent--itementfoo){
+    justify-content: start;
+    color: #ffffff;
+}
+
+
+:global(.vtex-menu-2-x-submenuAccordion--submendrawh){
+  justify-content: flex-start;
+  margin-left: 25px;
+  border-top: 3px solid #EB0045;
+  border-bottom: 1px solid #ffffff;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menicon)::after{
+  content: url(assets/expand.png);
+  padding-left: 5px;
+}
+
+
+:global(.vtex-login-2-x-profile),
+:global(.vtex-login-2-x-label),
+:global(.vtex-rich-text-0-x-link--textowish){
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+:global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+  font-size: 12px !important;    
+  font-family: 'Lato-Italic';
+  color: #A0A0A0;
+}
+:global(.vtex-store-components-3-x-newsletter)
+  :global(.vtex-styleguide-9-x-input)::-webkit-input-placeholder{
+    font-size: 14px !important;    
+    font-family: 'Lato-Italic';
+    color: #A0A0A0;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--btnwish){
+  left: 75%;
+}
+
+:global(.vtex-login-2-x-content),
+:global(.vtex-login-2-x-content--accountOptions),
+:global(.vtex-login-2-x-arrowUp){
+  background-color: #0F2A65;
+}
+
+:global(.vtex-login-2-x-formTitle){
+  color: #ffffff;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+  top: -1.4rem;
+  background-color: #EB0045;
+}
+
+/*------------------ Final estilo desktop ---------------------------*/
+:global(.vtex-login-2-x-facebookOptionBtn)
+  :global(.vtex-button),
+:global(.vtex-login-2-x-googleOptionBtn)
+  :global(.vtex-button){
+    background-color: #ffffff;
+}

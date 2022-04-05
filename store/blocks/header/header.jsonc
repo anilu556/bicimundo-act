@@ -1,0 +1,387 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",      
+      "sticky-layout#4-desktop"
+      
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#3-desktop"
+    ]
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"]
+  },
+
+  //  Megamenu
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu"],
+    "props":{
+      "blockClass": "clastyle"
+    }
+  },
+  "mega-menu":{
+    "props":{
+      "title": "",
+      "blockClass": "menu-desk"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  //  Megamenu
+
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      //"preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",  
+      "flex-layout.col#srch",      
+      "flex-layout.col#accesos"
+    ]
+  },
+  "flex-layout.col#srch":{
+    "children":[
+      "search-bar"
+    ],"props":{
+      "blockClass":"colsrch",
+      "width":"45%"
+    }
+  },
+
+  "flex-layout.col#accesos":{
+    "children":[
+      "flex-layout.row#items"      
+    ],"props":{
+      "width":"30%"
+    }
+  },"flex-layout.row#items":{
+    "children":[
+      "flex-layout.col#wishlist",
+      "login",
+      "minicart.v2"
+    ],"props":{
+      "colSizing":"auto",
+      "blockClass":"itemaccesos"
+    }
+  },
+
+  "flex-layout.col#wishlist":{
+    "title":"Contenedor Wishllist",
+    "children":[
+      "flex-layout.row#contwish"      
+    ],"props":{
+      "blockClass":"colwish"
+    }
+  },
+  "flex-layout.row#contwish":{
+    "children":[
+      "flex-layout.col#cora",
+      "flex-layout.col#textcora"
+      
+    ],"props":{
+      "colSizing":"auto"
+    }
+  },
+  "flex-layout.col#cora":{
+    "children":[
+      "image#corazon"
+    ],"props":{
+      "verticalAlign":"middle",
+      "paddingRight":3
+    }
+  },"flex-layout.col#textcora":{
+    "children":[
+      "rich-text#wish"
+    ],"props":{
+      "verticalAlign":"middle"
+    }
+  },
+  
+  "image#corazon":{
+    "title":"Icono Wishlist",
+    "props":{
+      "height":"34px",
+      "src":"assets/wishlist.png",
+      "link":{
+        "url":"https://bicimundomx.myvtex.com/account#/wishlist"      
+      }
+    }
+  },
+  "rich-text#wish":{
+    "title":"Texto Favoritos",
+    "props":{
+      "text":"[Favoritos](https://bicimundomx.myvtex.com/account#/wishlist)",
+      "blockClass":"textowish"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "width":"10%"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-bicimundo.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#2-desktop",
+      "sticky-layout#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+      
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "flex-layout.col#drawer",
+      "flex-layout.col#logomob",
+      "flex-layout.col#accesosmob"      
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colSizing":"auto"
+    }
+  },
+
+  "flex-layout.col#accesosmob":{
+    "children":[
+      "flex-layout.row#contentacc"
+    ]
+  },
+
+  "flex-layout.row#contentacc":{
+    "children":[
+      "flex-layout.col#wishmob",
+      "login",
+      "minicart.v2"
+    ],"props":{
+      "preserveLayoutOnMobile":true,
+      "colSizing":"auto"
+    }
+  },
+
+  "flex-layout.col#wishmob":{
+    "children":[
+      "image#corazonmob"
+    ],"props":{
+      "horizontalAlign":"center",
+      "verticalAlign":"middle"
+    }
+  },
+
+  "flex-layout.col#drawer":{
+    "children":[
+      "drawer"
+    ]
+  },
+
+  "flex-layout.col#logomob":{
+    "children":[
+      "logo#mobile"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },
+
+  "image#corazonmob":{
+    "props":{
+      "height":"22px",
+      "src":"assets/headresp/wishmob.svg",
+      "link":{
+        "url":"https://bicimundomx.myvtex.com/account#/wishlist"      
+      },
+      "blockClass":"imgwishmob"
+    }
+  },
+
+  "drawer#mob": {
+    "children": ["mega-menu#mob"],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "mega-menu#mob": {
+    "props": {
+      "title": "",
+      "blockClass": "menu-mob"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"],
+    "props":{
+      "isFullWidth":false
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#cats-mobile",
+      "menu-item#marcas",
+      "menu-item#montana",
+      "menu-item#carretera",
+      "menu-item#ciudad",
+      "menu-item#infantil",
+      "menu-item#ofertas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/headresp/bmlogomob.svg",
+      "width": "140"
+    }
+  },
+
+  "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Buscar bicicletas, partes herramientas, etc.",
+      "autocompleteAlignment":"center"
+      
+    }
+  },"autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#srch"],
+    "props":{
+      "autocompleteWidth": 60,
+      "simulationBehavior":"default"
+    }
+  },
+
+  "product-summary.shelf#srch": {
+    "children": [
+      "stack-layout#srch",
+      "product-summary-brand",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",      
+      "flex-layout.row#selling-price-savings",
+      "add-to-cart-button"
+    ]
+  },
+  "stack-layout#srch":{
+    "children":[
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+    ]
+  },
+
+  "flex-layout.row#2-mobile":{
+    "children":[
+      "search-bar"
+    ],"props":{
+      "blockClass":"rowsrchmob"
+    }
+  }
+}

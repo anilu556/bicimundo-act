@@ -1,0 +1,111 @@
+{
+    "flex-layout.row#pagos": {
+      "children": [
+        "flex-layout.col#pagos1",
+        "flex-layout.col#pagos2",
+        "flex-layout.col#pagos3",
+        "flex-layout.col#pagos4",
+        "flex-layout.col#pagos5",
+        "flex-layout.col#pagos6"
+      ],
+      "props": {
+        "blockClass": "pagos"
+      }
+    },
+
+    "flex-layout.row#pagosMobile": {
+      "children": [
+        "flex-layout.col#pagos1",
+        "flex-layout.col#pagos2",
+        "flex-layout.col#pagos3"
+      ],
+      "props": {
+        "blockClass": "pagosMobile"
+      }
+    },
+
+    "flex-layout.row#pagosMobile2": {
+      "children": [
+        "flex-layout.col#pagos4",
+        "flex-layout.col#pagos5",
+        "flex-layout.col#pagos6"
+      ],
+      "props": {
+        "blockClass": "pagosMobile2"
+      }
+    },
+
+    "flex-layout.col#pagos1": {
+      "children": [
+        "image#pago1"
+      ]
+    },
+    "image#pago1": {
+      "props": {
+        /* "src": "/arquivos/mastercard-alt.png", */
+        "src": "/arquivos/1.png",
+        "maxHeight": "50px"
+      }
+    },
+    "flex-layout.col#pagos2": {
+      "children": [
+        "image#pago2"
+      ]
+    },
+    "image#pago2": {
+      "props": {
+        /* "src": "/arquivos/visa.png", */
+        "src": "/arquivos/2.png",
+        "maxHeight": "60px"
+      }
+    },
+    "flex-layout.col#pagos3": {
+      "children": [
+        "image#pago3"
+      ]
+    },
+    "image#pago3": {
+      "props": {
+        /* "src": "/arquivos/paypal.png", */
+        "src": "/arquivos/3.png",
+        "maxHeight": "50px"
+      }
+    },
+    "flex-layout.col#pagos4": {
+      "children": [
+        "image#pago4"
+      ]
+    },
+    "image#pago4": {
+      "props": {
+        /* "src": "/arquivos/apple-pay.png", */
+        "src": "/arquivos/4.png",
+        "maxHeight": "80px"
+        
+      }
+    },
+    "flex-layout.col#pagos5": {
+        "children": [
+          "image#pago5"
+        ]
+      },
+      "image#pago5": {
+        "props": {
+          /* "src": "./arquivos/amazon-pay.png", */
+          "src": "./arquivos/5.png",
+          "maxHeight": "50px"
+         
+        }
+      },
+      "flex-layout.col#pagos6": {
+        "children": [
+          "image#pago6"
+        ]
+      },
+      "image#pago6": {
+        "props": {
+          "src": "/arquivos/6.png",
+          "maxHeight": "50px"
+        }
+      }
+    }

@@ -1,0 +1,1643 @@
+.notificationBarContainer {
+  background-color: #0F2A65;
+  color: #ffffff;
+  text-decoration: none;
+  height: 1.5rem !important;
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+ 
+}
+
+
+
+:global(.vtex-store-components-3-x-notificationBarInner){
+  min-height: 1.7rem !important;
+}
+
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+} 
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*---------------- Inicio  Estilo Info cards ----------------------*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--seccionic){
+  min-height: 419px;
+  background-position: top;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--colic){
+  padding-top: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rowic){
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--seccionic){
+  width: 100%;
+  padding-top: 25%;
+}
+
+:global(.vtex-login-2-x-profile){
+  max-width: 100px !important;
+  color: #ffffff !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--seccionic),
+:global(.vtex-store-components-3-x-infoCardSubhead){
+  color: #ffffff;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--seccionic){
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardHeadline--seccionic){
+  font-size: 35px;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead){
+  margin-top: 0px !important;
+  font-family: 'Lato-Regular';
+  font-size: 25px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--seccionic)
+ :global(.vtex-button){
+  background-color: #EB0045;
+  border-color: #EB0045;
+  border-radius: 10px;
+  height: 38px !important;
+  font-family: 'Lato-Regular';
+  font-size: 20px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--seccionic)
+ :global(.vtex-button):hover{
+  background-color: #EB0045;
+  border-color: #EB0045;
+}
+
+
+:global(.vtex-rich-text-0-x-headingLevel2--titconoce),
+:global(.vtex-rich-text-0-x-headingLevel2--offcont),
+:global(.vtex-rich-text-0-x-heading--shelfTitle){
+  color: #0F2A65;
+  font-family: 'Lato-BlackItalic';
+  font-size: 35px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--seccionic)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      text-transform: capitalize;
+      font-size: 20x;
+    }
+/*---------------- Fin  Estilo Info cards ----------------------*/
+/*---------------- Inicio  Estilo summay ----------------------*/
+
+:global(.vtex-wish-list-1-x-outline){
+  content: url(assets/hwishlist.svg);
+}
+
+:global(.vtex-wish-list-1-x-fill){
+  content: url(assets/hwishlistfill.svg);
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star--filled),
+:global(.vtex-reviews-and-ratings-2-x-star--empty){
+  color: #EB0045;
+}
+
+:global(.vtex-product-summary-2-x-productBrandName){
+  color: #385DAE;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+}
+
+
+:global(.vtex-product-summary-2-x-brandName){
+  color: #385DAE;
+  font-family: 'Lato-Bold';
+  font-size: 16px;  
+}
+
+:global(.vtex-product-summary-2-x-nameContainer){
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--productRating){
+  margin-bottom: 0 !important;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary){
+  color: #EB0045;
+  font-family: 'Lato-Bold';
+  font-size: 16px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer--acbtn){
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: 'Lato-Bold';
+}
+
+:global(.vtex-product-summary-2-x-element)
+  :global(.vtex-button){
+    border-radius: 20px;
+  }
+/*---------------- Final  Estilo summay ----------------------*/
+
+/*----------------------- Inicio Carrusel Marcas mobile ----------------------*/
+
+:global(.vtex-slider-layout-0-x-slide--carrumarcas){
+  justify-content: center;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carrumarcas){
+  width: 70%;
+}
+
+
+/*----------------------- Final Carrusel Marcas mobile ----------------------*/
+
+/*--------------------- Inicio estilo Responsivo --------------------*/
+@media (max-width: 640px){
+
+  :global(.vtex-flex-layout-0-x-flexCol--descfeaturess){
+    padding-left: 0px;
+  }
+
+  :global(.vtex-store-components-3-x-caretIcon--thumbproduct){
+    display: none;
+  }
+
+  :global(.vtex-styleguide-9-x-input){
+    padding-top: 8px;
+    font-size: 14px!important;
+  }
+
+
+  :global(.vtex-rich-text-0-x-wrapper--titconoce){
+      text-align: center !important;
+      
+  }  
+
+  :global(.vtex-rich-text-0-x-headingLevel2--titconoce){
+    font-size: 22px;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--imgdeals){
+    max-width: 61px !important;
+  }
+
+
+}
+
+@media (max-width: 1024px){
+
+  :global(.vtex-flex-layout-0-x-flexColChild--colnewsmob){
+    width: 100%;
+  }
+
+  :global(.vtex-rich-text-0-x-container--txtnews){
+    justify-content: center;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--txtnews){
+    text-align: center;
+    font-size: 20px !important;
+    margin-bottom: 5px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--rownewsmob){
+    background-color: #0F2A65;
+    padding-bottom: 20px;
+  }
+
+  :global(.vtex-store-components-3-x-newsletter)
+    :global(.vtex-store-components-3-x-form){
+    padding-left: 0;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--mpmob){
+    max-height: 30px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--rowpay){
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+  }
+
+}
+
+/*--------------------- Final estilo Responsivo --------------------*/
+
+
+
+/* ------------ Elements of product page ------------ */
+:global(.vtex-store-components-3-x-productImagesThumb){
+  height: 210px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pricings){
+  justify-content: flex-start;
+}
+/* Geneal font-family LATO */
+:global(.vtex-store-components-3-x-container),
+:global(.vtex-reviews-and-ratings-2-x-container) {
+  font-family: Lato;
+}
+
+/* Brand name style */
+:global(.vtex-store-components-3-x-productBrandName--product-brandName) {
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  color: #385dae;
+}
+
+/* Product name style. */
+:global(.vtex-flex-layout-0-x-flexRowContent--product-name)
+  :global(.vtex-store-components-3-x-productNameContainer--quickview) {
+  font-family: "Lato-Bold";
+  font-size: 30px;
+  color: #385dae;
+}
+
+/* -----------------  Model (product-identifier) style ----------------- */
+/* Deleting 'Reference' label */
+:global(.vtex-flex-layout-0-x-flexRowContent--Model)
+  :global(.vtex-product-identifier-0-x-product-identifier__label),
+:global(.vtex-product-identifier-0-x-product-identifier__separator) {
+  display: none;
+}
+/* Adding 'Modelo' label */
+:global(.vtex-flex-layout-0-x-flexRowContent--Model)
+  :global(.vtex-product-identifier-0-x-product-identifier__value)::before {
+  content: "Modelo ";
+  font-family: 'Lato-Regular';
+  color: #385dae;
+  font-size: 12px;
+}
+/* Full text style */
+:global(.vtex-flex-layout-0-x-flexRowContent--Model)
+  :global(.vtex-product-identifier-0-x-product-identifier__value) {
+  font-family: 'Lato-Regular';
+  color: #385dae;
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference){
+  margin-bottom: 0% !important;
+}
+
+
+/* ----------------- /Model (product-identifier) style ----------------- */
+
+/* Raiting stars style */
+:global(.vtex-flex-layout-0-x-flexRow--ratingStars)
+  :global(.vtex-reviews-and-ratings-2-x-star--filled),
+  :global(.vtex-reviews-and-ratings-2-x-star--empty){
+  color: #eb0045;
+  font-size: 1.2rem;
+}
+/* ---------------- Product description ----------------- */
+/* Delete title description */
+:global(.vtex-store-components-3-x-productDescriptionContainer)
+  :global(.vtex-store-components-3-x-productDescriptionTitle) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--descripcionProducto)
+  :global(.vtex-store-components-3-x-content) {
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  color: #242424;
+}
+/* --------------- /Product description ----------------- */
+
+/* --------------- Pricing labels --------------- */
+/* Selling price */
+:global(.vtex-flex-layout-0-x-flexRowContent--pricings)
+  :global(.vtex-product-price-1-x-currencyContainer--sellingPrice) {
+  font-size: 1.5rem;
+  color: #385dae;
+  font-family: 'Lato-Bold' !important;
+}
+
+/* Fail :c */
+/* :global(.vtex-flex-layout-0-x-flexRowContent--pricings)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  padding-bottom: 10px;
+  width: 100% !important;
+}
+ */
+/* List price */
+:global(.vtex-flex-layout-0-x-flexRowContent--pricings)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-product-price-1-x-currencyContainer--listPrice) {
+  color: #a0a0a0;
+  font-size: 1.5rem;
+  position: relative;
+  top: 1px;
+  font-family: 'Lato-Regular';
+}
+
+/* -------------- /Pricing labels --------------- */
+/* -------------- Quantity (label and numeric component) -------------- */
+
+:global(.vtex-rich-text-0-x-container--quantityLabel)
+  :global(.vtex-rich-text-0-x-paragraph--quantityLabel) {
+  font: normal normal normal 14px/25px Lato;
+  letter-spacing: 0px;
+  color: #242424;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--quantityRow)
+  :global(.vtex-rich-text-0-x-paragraph--quantityLabel) {
+  padding-bottom: 11px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+}
+
+/* Input style */
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantityComponent)
+  :global(.vtex-numeric-stepper__input) {
+  border: 0.4000000059604645px solid #c4c4c4;
+  border-radius: 10px;
+  color: #292929;
+  font-family: 'Lato-Regular';
+  width: 53px;
+  height: 22px;
+}
+
+/* Quantity buttons (- and +)  */
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantityComponent)
+  :global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button) {
+  background: #385dae 0% 0% no-repeat padding-box;
+  border-radius: 10px !important;
+  width: 27px !important;
+  height: 22px !important;
+  /* font-size: 9px; */
+  font-weight: 4px;
+  color: #ffffff;
+}
+
+
+
+
+/* ------------- /Quantity (label and numeric component) -------------- */
+
+/* Add to cart button style */
+:global(.vtex-flex-layout-0-x-flexRow--rowAtCB) :global(.vtex-button) {
+  background: #eb0045 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border: #eb0045;
+}
+
+/* Add to cart button_LABEL style */
+:global(.vtex-flex-layout-0-x-flexRow--rowAtCB)
+  :global(.vtex-add-to-cart-button-0-x-buttonText--AtC-Button) {
+  font: normal normal bold 16px/20px Lato;
+  color: #ffffff;
+  text-transform: none;
+}
+
+/* HighLight Envio Gratis */
+:global(.vtex-flex-layout-0-x-flexRowContent--rowHL)
+  :global(.vtex-product-highlights-2-x-productHighlightText) {
+  background: #385dae;
+  width: 178px;
+  height: 43px;
+  border-radius: 20px;
+  padding: 0px 0px 0px 0px !important;
+  font-family: 'Lato-BlackItalic';
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-align: center;
+
+  /* Shadow */
+  box-shadow: 4px 5px #EB0045;
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rowHL)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  justify-content: left;
+}
+
+/* --------------- Share --------------- */
+/* Delete share title */
+:global(.vtex-store-components-3-x-shareContainer)
+  :global(.vtex-store-components-3-x-shareLabel) {
+  font-size: 1.5rem;
+  display: none;
+}
+
+/* --------------- Change icons of Facebook, Twitter and WhatsApp --------------- */
+:global(.vtex-store-components-3-x-shareSocialIcon):first-child{
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+:global(.vtex-store-components-3-x-shareSocialButton):first-child::before {
+  content: ' ';
+  display:block;
+  height:19px;
+  width:19px;
+  background-size: 19px 19px;
+  background-image:url('assets/productAssets/fbprod.svg');
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+:global(.vtex-store-components-3-x-shareSocialButton):not(:first-child)::before{
+  content: ' ';
+  display:block;
+  height:19.14px;
+  width:19.14px;
+  background-size: 19.14px 19.14px;
+  background-image:url('assets/productAssets/iconTw.png');
+
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-store-components-3-x-shareContainer)
+:global(.vtex-store-components-3-x-shareSocialButton):last-child::before {
+  content: ' ';
+  display:block;
+  height:19.14px;
+  width:19.14px;
+  background-size: 19.14px 19.14px;
+  background-image:url('assets/productAssets/iconWa.png');
+
+  background-repeat: no-repeat;
+}
+/* --------------- Change icons of Facebook, Twitter and WhatsApp --------------- */
+
+/* -------------- /Share --------------- */
+
+/* Secure site and cards */
+:global(.vtex-flex-layout-0-x-flexRow--rowSSandC)
+  :global(.vtex-flex-layout-0-x-flexCol--colSSWithText),
+:global(.vtex-flex-layout-0-x-flexCol--CWithText) {
+  align-items: center;
+}
+
+/* ------------ Accordion menu ------------ */
+:global(.vtex-store-components-3-x-productDescriptionText)
+  :global(.vtex-store-components-3-x-container)
+    :global(.vtex-store-components-3-x-content){
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #292929;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+:global(.vtex-menu-2-x-menuItem--isClosed) {
+  background: #0f2a65;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+:global(.vtex-menu-2-x-menuItem--isOpen) {
+  background: #F8F8F8;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--isClosed){
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+  :global(.vtex-menu-2-x-menuItem--description--isClosed) 
+  :global(.vtex-menu-2-x-styledLinkContent--description) {
+    color: #FFFFFF;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+  }
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+  :global(.vtex-menu-2-x-menuItem--caracteristicas--isClosed) 
+  :global(.vtex-menu-2-x-styledLinkContent--caracteristicas) {
+    color: #FFFFFF;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+  }
+
+
+  :global(.vtex-menu-2-x-menuContainerNav--desc)
+  :global(.vtex-menu-2-x-menuItem--description--isOpen) 
+  :global(.vtex-menu-2-x-styledLinkContent--description) {
+    color: #292929;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+  }
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+  :global(.vtex-menu-2-x-menuItem--caracteristicas--isOpen) 
+  :global(.vtex-menu-2-x-styledLinkContent--caracteristicas) {
+    color: #292929;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+  }
+
+
+:global(.vtex-menu-2-x-menuContainerNav--desc)
+  :global(.vtex-menu-2-x-styledLinkContent--description),
+:global(.vtex-menu-2-x-styledLinkContent--caracteristicas){
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font: normal normal bold 16px/20px Lato;
+  justify-content: end;
+  text-transform: uppercase;
+}
+:global(.vtex-menu-2-x-styledLinkContent--caracteristicas)
+  :global(.vtex-menu-2-x-accordionIcon--caracteristicas--isOpen)::after{
+  content: url(assets/minus.png);
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText){
+  padding-bottom: 25px;
+}
+/* ----------- /Accordion menu ------------ */
+
+/* ---------------- Also can you interested ---------------- */
+/* Center title */
+:global(.vtex-flex-layout-0-x-flexRow--Interested)
+:global(.vtex-rich-text-0-x-container--ACYI){
+  justify-content: center;
+ 
+}
+
+/* Title style*/
+:global(.vtex-flex-layout-0-x-flexRow--Interested)
+:global(.vtex-rich-text-0-x-container--ACYI)
+:global(.vtex-rich-text-0-x-heading){
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato-BlackItalic';
+  font-size: 35px;
+  color: #0F2A65;
+}
+/* --------------- /Also can you interested ---------------- */
+
+/* ----------- /Some elements of product page ------------ */
+
+/* ----------- Some elements popup login ----------- */
+/* Align items center popup profile*/
+:global(.vtex-login-2-x-content--accountOptions){
+  text-align: center;
+}
+
+
+/* Replace text button ACCEDER CON CÓDIGO DE ACCESSO */
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+:global(.vtex-button)
+:global(.vtex-button__label){
+  display: none;
+}
+:global(.vtex-login-2-x-accessCodeOptionBtn)
+:global(.vtex-button)::after{
+  content: "ACCEDER CON CÓDIGO DE ACCESO";
+  text-transform: uppercase !important;
+  color: #0F2A65;
+  font-size: 14px !important;
+  font-family: 'Lato-Regular'!important;
+}
+
+/* Replace text button ENTRAR CON E-MAIL Y CONTRASEÑA */
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+:global(.vtex-button)
+:global(.vtex-button__label){
+  display: none;
+}
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+:global(.vtex-button)::after{
+  content: "ENTRAR CON E-MAIL Y CONTRASEÑA";
+  color: #0F2A65;
+  font-size: 14px !important;
+  font-family: 'Lato-Regular'!important;
+}
+
+/* Login buttons */
+:global(.vtex-login-2-x-options)
+:global(.vtex-login-2-x-button){
+  background-color: #EEF3F7;
+  border-radius: 3px;
+  border: 1px solid #EDEDED;
+}
+
+/* Login button labels */
+:global(.vtex-login-2-x-options)
+:global(.vtex-login-2-x-button)
+:global(.vtex-login-2-x-oauthLabel) {
+  color: #0F2A65;
+  font-size: 14px !important;
+}
+
+/* Clean bold font */
+:global(.vtex-login-2-x-options)
+:global(.vtex-login-2-x-button)
+:global(.vtex-login-2-x-oauthProvider) {
+  font-weight: lighter;
+}
+
+/* My Account button */
+:global(.vtex-login-2-x-content--accountOptions)
+:global(.vtex-login-2-x-accountOptions)
+:global(.vtex-login-2-x-button) {
+  color: #0F2A65;
+  width: 318px;
+  height: 43px;
+  font-size: 0.875rem;
+  font-family: 'Lato-Regular';
+}
+
+/* Send and confirm button */
+:global(.vtex-login-2-x-formFooter)
+  :global(.vtex-login-2-x-sendButton)
+    :global(.vtex-button),
+:global(.vtex-login-2-x-content--emailVerification)
+:global(.vtex-login-2-x-sendButton)
+:global(.vtex-button),
+:global(.vtex-login-2-x-codeConfirmation)
+:global(.vtex-login-2-x-sendButton)
+:global(.vtex-button) {
+  border-radius: 20px;
+  background-color: #EB0045;
+  border-color: #EB0045;
+}
+  
+
+/* Visible and invisible password icon */
+:global(.vtex-login-2-x-inputContainerPassword)
+:global(.vtex-login-2-x-eyeIcon--invisible),
+:global(.vtex-login-2-x-inputContainerPassword)
+:global(.vtex-login-2-x-eyeIcon--visible) {
+  color: #EB0045;
+}
+
+/* Forgot my password and Register label */
+:global(.vtex-login-2-x-emailAndPasswordForm)
+:global(.vtex-login-2-x-formLinkContainer)
+:global(.vtex-login-2-x-forgotPasswordLink), 
+:global(.vtex-login-2-x-emailAndPasswordForm)
+:global(.vtex-login-2-x-formLinkContainer)
+:global(.vtex-login-2-x-dontHaveAccount) {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Lato-italic';
+}
+
+/* Border top footer Login with email and ps */
+:global(.vtex-login-2-x-emailAndPasswordForm)
+:global(.vtex-login-2-x-formFooter) {
+  border-top: 1px solid #EB0045;
+}
+
+/* ENTRAR button */
+:global(.vtex-login-2-x-emailAndPasswordForm)
+:global(.vtex-login-2-x-sendButton)
+:global(.vtex-button) {
+  width: 90px;
+  height: 14px !important;
+  background-color: #EB0045;
+  border-color: #EB0045;
+  border-radius: 25px;
+  }
+
+/* ---------- /Some elements popup login ----------- */
+/* ----------- Some elements of profile page  ----------- */
+
+/* Navbar active/visited color */
+:global(.vtex-my-account-1-x-menuLinks) 
+:global(.vtex-account_menu-link):visited {
+  border-color: #EB0045 !important;
+}
+:global(.vtex-my-account-1-x-boxContainer){
+  background-color:  #F8F8F8;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+/* Edit and password button label style */
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button__label ), 
+:global(.vtex-my-account-1-x-profileBoxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button__label ){
+  font-family: 'Lato-italic';
+  color: #0F2A65;
+  text-transform: initial;
+}
+
+/* Justify password button label LEFT */
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter) {
+  justify-content: left;
+}
+
+/* Check box Profile tab */
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-checkbox__inner-container){
+  border-radius: 30px;
+}
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-checkbox__inner-container):visited  {
+  background-color: #EB0045;
+}
+
+/* Button label add Addres */
+:global(.vtex-my-account-1-x-addressCreate)
+:global(.vtex-dropdown__button), :global(.vtex-address-form-4-x-input) {
+  font-size: 0.75rem !important;
+  font-family: 'Lato-Regular';
+  color: #292929;
+}
+
+/* Button label add Addres */
+:global(.vtex-my-account-1-x-addressCreate)
+:global(.vtex-dropdown__label), :global(.vtex-input__label) {
+  font-size: 1.25rem;
+  font-family: 'Lato-Regular';
+  color: #292929;
+}
+
+/* Button background color */
+:global(.vtex-my-account-1-x-addressCreate)
+:global(.vtex-button) {
+  background: #0F2A65 0% 0% no-repeat padding-box;
+  border-color: #0F2A65;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* Button label add address  */
+:global(.vtex-my-account-1-x-addressCreate)
+:global(.vtex-button__label) {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-family: 'Lato-Regular';
+  text-transform: capitalize;
+}
+
+/* Background color credit card */
+:global(.vtex-account__create-card) {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+}
+
+/* Button from headers */
+:global(.vtex-pageHeader__container)
+:global(.vtex-button) {
+  border-radius: 20px;
+  background-color: #0F2A65;
+  border-color: #0F2A65;
+}
+:global(.vtex-pageHeader__container)
+:global(.vtex-button)
+:global(.vtex-button__label){
+  text-transform: capitalize;
+  font-family: 'Lato-Regular';
+  font-size: 20px;
+}
+
+/* Header back button */
+:global(.vtex-pageHeader-link__container)
+:global(.vtex-button) {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* Header back button  arrow */
+:global(.vtex-pageHeader-link__container)
+:global(.vtex-button) 
+:global(.vtex__icon-arrow-back) {
+  color: #0F2A65;
+}
+
+/* ---------- /Some elements of profile page  ----------- */
+
+/* ---------- Some elements of mini cart ---------- */
+
+/* Close icon */
+:global(.vtex-minicart-2-x-closeIconContainer)
+:global(.vtex-minicart-2-x-closeIconButton)
+:global(.vtex-minicart-2-x-closeIcon) {
+  background-color: #EB0045;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+
+/* Mini card CARRITO header */
+:global(.vtex-minicart-2-x-minicartContentContainer)
+:global(.vtex-minicart-2-x-minicartTitle) {
+  font-family: 'Lato-Regular';
+  text-transform: uppercase;
+}
+
+/* Hidde brand name */
+:global(.vtex-minicart-2-x-minicartProductListContainer )
+:global(.vtex-product-list-0-x-productBrandName){
+  display: none;
+}
+
+/* Product name */
+:global(.vtex-product-list-0-x-productName) {
+  color: #252525;
+  font-size: 0.75rem;
+  font-family: 'Lato-Regular';
+}
+
+/* Replace delete icon */
+:global(.vtex-flex-layout-0-x-flexRowContent)
+:global(.vtex-product-list-0-x-removeButton)
+:global(.vtex-product-list-0-x-deleteIcon) {
+  display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent)
+:global(.vtex-product-list-0-x-removeButton)::after {
+  content: url(assets/trashIcon.svg);
+}
+
+/* Dropdown counter style */
+
+
+:global(.vtex-product-list-0-x-quantityDropdownMobileContainer)
+:global(.vtex-styleguide-9-x-container),
+:global(.vtex-flex-layout-0-x-flexRowContent)
+:global(.vtex-product-list-0-x-quantityDropdownContainer)
+:global(.vtex-styleguide-9-x-container) { 
+  border-radius: 0px;
+  border-color: #EB0045;
+}
+
+:global(.vtex-product-list-0-x-quantityDropdownMobileContainer)
+:global(.vtex-dropdown__arrow),
+:global(.vtex-flex-layout-0-x-flexRowContent)
+:global(.vtex-product-list-0-x-quantityDropdownContainer)
+:global(.vtex-dropdown__arrow) {
+  color: #EB0045;
+}
+
+/* Close purchase button */
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+:global(.vtex-button) {
+  border-radius: 20px;
+  background-color: #EB0045;
+  border-color: #EB0045;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* Replace close purchase label button */
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button)
+:global(.vtex-button__label) {
+  font-size: 0px;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button)
+:global(.vtex-button__label)::before {
+  font-size: 1rem;
+  font-family: 'Lato-Regular';
+  content: "FINALIZAR COMPRA";
+}
+
+/* Divider footer */
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer) {
+  border-top: 1px solid #EB0045;
+}
+:global(.vtex-login-2-x-formFooter){
+  border-color: #EB0045 !important;
+}
+
+/* ---------- Some elements of mini cart ---------- */
+:global(.vtex-search-1-x-tileListItem){
+  padding: 10px;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button){
+    background-color: rgb(15, 42, 101);
+    border:1px solid rgb(15, 42, 101)
+}
+
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      color: #EB0045;
+    }
+
+
+:global(.vtex-store-components-3-x-productBrandName--summaryListMobile),
+:global(.vtex-product-price-1-x-savings--summary),
+:global(.vtex-product-price-1-x-savingsPercentage--summaryPercentage),
+:global(.vtex-store-components-3-x-productBrandName--summaryListDesktop){
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+}
+
+:global(.vtex-product-price-1-x-savingsPercentage--summaryPercentage){
+  background-color: #385DAE;
+  border-radius: 25px;
+}
+
+:global(.vtex-product-price-1-x-savings--summary){
+  background-color: #38AE58;
+}
+  
+:global(.vtex-product-price-1-x-currencyContainer--summary){
+  padding-left: 5px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--buyNowButton)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+       color: #ffffff;
+       background-color: #A0A0A0;
+       border-radius: 25px;
+       font-family: 'Lato-Bold';
+}
+
+:global(.vtex-checkbox__label){
+  line-height: 1.2;
+}
+
+
+:global(.vtex-store-components-3-x-swiperBullet){
+  opacity: 1 ;
+  background: #EB0045 ;
+}
+
+:global(.vtex-store-components-3-x-swiperBullet--active){
+  background: #385DAE;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--caracteristicas)
+  :global(.vtex-menu-2-x-accordionIcon--caracteristicas--isOpen),
+:global(.vtex-menu-2-x-styledLinkContainer--description)
+  :global(.vtex-menu-2-x-accordionIcon--description--isOpen){
+    content: url(assets/minus.png);
+  }
+
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading){
+  padding-top: 50px;
+  font-size: 0%;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading)::before{
+  content: "RESEÑAS Y COMENTARIOS";
+  font-family: 'Lato-Bold';
+  font-size: 16px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-loginLink),
+:global(.vtex-reviews-and-ratings-2-x-reviewsRatingCount),
+:global(.vtex-reviews-and-ratings-2-x-reviewsRatingAverage){
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentUser){
+  font-family: 'Lato-Bold';
+  font-size: 14px;
+}
+
+
+:global(.vtex-reviews-and-ratings-2-x-star--filled),
+:global(.vtex-reviews-and-ratings-2-x-star--empty){
+  font-size: 24px;
+}
+
+:global(.vtex-shelf-1-x-slide){
+  padding: 5px;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter)
+  :global(.vtex-button)
+    :global(.vtex-button__label){
+      color: #0F2A65;
+    }
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer){
+  font-family: 'Lato-Bold';
+}
+:global(.vtex-reviews-and-ratings-2-x-writeReviewButton){
+  color: #000000;
+  font-family: 'Lato-Regular';
+}
+
+
+:global(.vtex-reviews-and-ratings-2-x-starpicker)
+  :global(.vtex-input__label),
+:global(.vtex-reviews-and-ratings-2-x-formBottomLine)
+  :global(.vtex-input__label){
+    font-family: 'Lato-Regular';
+  }
+
+
+
+:global(.vtex-reviews-and-ratings-2-x-formSubmit)
+  :global(.vtex-button){
+    border-radius: 25px;
+}
+
+
+:global(.vtex-checkbox__inner-container):visited{
+  background-color: #EB0045;
+  
+}
+
+
+:global(.vtex-my-orders-app-3-x-orderCard){
+  border-color: transparent;
+}
+
+
+:global(.vtex-my-orders-app-3-x-orderHeader){
+  border-radius: 15px 15px 0px 0px;
+  background-color: #f8f8f8;
+  font-family: 'Lato-Bold';
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody){
+  border-radius:  0px 0px 15px 15px;
+  background-color: #f8f8f8;
+  font-family: 'Lato-Bold';
+}
+
+:global(.vtex-my-orders-app-3-x-font),
+:global(.vtex-my-orders-app-3-x-orderProductName){
+  color: #0F2A65;
+  font-family: 'Lato-Regular';
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn){
+  background-color: #0F2A65;
+  color: #ffffff;
+  font-family: 'Lato-Bold';
+  border-radius: 20px;
+}
+
+:global(.vtex-modal__modal){
+  color: #000;
+}
+
+:global(.vtex-modal__confirmation)
+  :global(.vtex-button){
+    border-radius: 20px;
+  }
+
+:global(.vtex-checkbox__box-wrapper)
+  :global(.vtex-checkbox__box)
+    :global(.vtex__icon-check){
+      background-color: #EB0045;
+      border-radius: 20px;
+      border:1px solid #EB0045;
+    }
+
+
+/*----------------- Institucionales ----------------*/
+:global(.vtex-rich-text-0-x-headingLevel3--textcontent){
+  font-family: 'Lato-Bold';
+  font-size: 30px;
+  color: #EB0045;
+}
+
+
+:global(.vtex-rich-text-0-x-headingLevel4--textcontent){
+  font-family: 'Lato-Bold';
+  font-size: 24px;
+  color: #EB0045;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textcontent){
+  font-family: 'Lato-Regular';
+  font-size: 20px;
+}
+
+:global(.vtex-product-summary-2-x-SKUSelectorContainer) {
+  height: 400%;
+  margin: none 0;
+
+}
+
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer) {
+  margin-bottom: .5rem;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+  margin-bottom: 0rem;
+}
+
+/* Delete cancel order buttons */
+:global(.vtex-my-orders-app-3-x-orderBody)
+  :global(.vtex-my-orders-app-3-x-cancelBtn),
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-cancelOrderButton) {
+    display: none;
+}
+
+/* Order placed */
+
+:global(.vtex-rich-text-0-x-container--thanks-text) {
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-heading--thanks-text) {
+  color: #292929;
+  font-size: 30px;
+  font-family: 'Lato-Regular';
+}
+
+:global(.vtex-order-placed-2-x-confirmationMessage) {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #292929;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons) 
+:global(.vtex-button ) {
+  background-color: #0F2A65 ;
+  border-radius: 20px;
+  width: 307px;
+  height: 46px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons) 
+:global(.vtex-button__label) {
+  color: #FCFCFC;
+  font-family: 'Lato-Regular';
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-order-placed-2-x-orderWrapper) {
+  font-family: 'Lato-Regular' !important;
+}
+
+:global(.vtex-order-placed-2-x-orderWrapper)
+:global(.vtex-order-placed-2-x-orderNumber ) {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #292929;
+}
+
+:global(.vtex-order-placed-2-x-updateOrderButton)
+:global(.vtex-button) {
+  background-color: #385DAE ;
+  border-radius: 20px;
+  width: 270px;
+  height: 43px;
+}
+
+:global(.vtex-order-placed-2-x-updateOrderButton)
+:global(.vtex-button__label) {
+  color: #FCFCFC;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 300 !important;
+}
+
+:global(.vtex-order-placed-2-x-myOrdersButton) 
+:global(.vtex-button) {
+  background-color: #385DAE ;
+  border-radius: 20px;
+  width: 170px;
+  height: 43px;
+}
+
+:global(.vtex-order-placed-2-x-myOrdersButton) 
+:global(.vtex-button__label) {
+  color: #FCFCFC;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 300 !important;
+}
+
+:global(.vtex-order-placed-2-x-orderSeller ),
+:global(.vtex-order-placed-2-x-orderSoldBy),
+:global(.vtex-order-placed-2-x-orderDatetime) {
+  font-family: "Lato-Regular" !important;
+  font-size: 20px;
+  color: #292929;
+  font-weight: 100;
+}
+
+:global(.vtex-order-placed-2-x-customerInfoListName),
+:global(.vtex-order-placed-2-x-customerInfoListEmail),
+:global(.vtex-order-placed-2-x-customerInfoListPhone) {
+  font-family: "Lato-Regular" !important;
+  font-size: 16px;
+  color: #292929;
+  font-weight: 100;
+}
+
+:global(.vtex-order-placed-2-x-paymentGroup),
+:global(.vtex-order-placed-2-x-paymentValue),
+:global(.vtex-order-placed-2-x-packageDeliveryTitle),
+:global(.vtex-order-placed-2-x-packageShippingEstimate),
+:global(.vtex-order-placed-2-x-packageSLA), 
+:global(.vtex-order-placed-2-x-addressContainer),
+:global(.vtex-order-placed-2-x-productName), 
+:global(.vtex-order-placed-2-x-productQuantity),
+:global(.vtex-order-placed-2-x-productPrice) {
+  font-family: "Lato-Regular" !important;
+  font-size: 16px;
+  color: #292929;
+  font-weight: 100;
+}
+
+:global(.vtex-order-placed-2-x-totalListItem),
+:global(.vtex-order-placed-2-x-productName), 
+:global(.vtex-order-placed-2-x-productQuantity) {
+  text-transform: uppercase;
+}
+
+:global(.vtex-order-placed-2-x-totalListItem) {
+  font-family: "Lato-Regular" !important;
+  font-size: 20px;
+  color: #292929;
+}
+
+/* / Order placed */
+/* CountDown */
+
+:global(.vtex-flex--countdown-div) {
+  margin-top: 15px;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  font-family: 'Lato-Regular';
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+:global(.vtex-flex--countdown-time) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex--countdown-time) {
+  margin: 0 auto;
+}
+
+:global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+  font-size: 35px;
+  font-family: 'Lato-BlackItalic';
+  margin-right: 15px;
+  color: #0F2A65 ;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex--countdownDays0),
+:global(.vtex-flex--countdownDays1),
+:global(.vtex-flex--countdownHours0),
+:global(.vtex-flex--countdownHours1),
+:global(.vtex-flex--countdownMinutes0),
+:global(.vtex-flex--countdownMinutes1),
+:global(.vtex-flex--countdownSeconds0),
+:global(.vtex-flex--countdownSeconds1) {
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 7px;
+  background: rgba(56,93,174,1);
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+:global(.vtex-flex--countdownSeparator) {
+  color: #292929;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-flex--countdown-time-name) {
+  padding-top: 5px;
+  font-size: 14px;
+  margin-right: 15px;
+  color: #0F2A65 !important;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato-BlackItalic';
+  margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-flex--countdown-div) {
+    font-size: 20px;
+  }
+
+  :global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+    font-size: 16px;
+    font-family: 'Lato-Regular';
+  }
+
+  :global(.vtex-flex--countdown-div) {
+    display: grid;
+  }
+
+  :global(.vtex-flex--countdown-text) {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex--countdown-time-name) {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+  /* / CountDown */
+
+  /* Megamenu */
+
+  :global(.vtex-mega-menu-2-x-triggerContainer)::after{
+    content: "ELIGE POR CATEGORÍA";
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Lato-Black;
+    margin-left: 10px;
+  }
+
+  :global(.vtex-mega-menu-2-x-triggerButtonIcon) {
+    width: 0px;
+    margin-top: 12px;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainerNav--menu-desk){
+  border-top: 4px solid #EB0045;
+}
+
+:global(.vtex-mega-menu-2-x-submenuContainer),
+:global(.vtex-mega-menu-2-x-menuContainerNav)
+{
+  background: #0F2A65;
+  height: 420px;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainer){
+ max-height: 600px;
+}
+
+:global(.vtex-mega-menu-2-x-submenuContainerTitle--menu-desk){
+  display: none;
+}
+
+:global(.vtex-mega-menu-2-x-styledLinkText){
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Lato-Bold';
+}
+
+:global(.vtex-mega-menu-2-x-submenuList) :global(.vtex-mega-menu-2-x-styledLinkText){
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Lato-Regular';
+}
+
+:global(.vtex-mega-menu-2-x-seeAllLink){
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Lato-Regular';
+  font-weight: 200;
+}
+
+:global(.vtex-mega-menu-2-x-submenuContainerTitle){
+  color: #ffffff;
+}
+
+
+/* Mobile Megamenu */
+
+:global(.vtex-store-drawer-0-x-openIconContainer--acces)::after {
+  content: "ACCESORIOS";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--bici)::after {
+  content: "BICICLETAS";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--cambios)::after {
+  content: "CAMBIOS Y TRANSMISIÓN";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--comp)::after {
+  content: "COMPONENTES";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--cuadros)::after {
+  content: "CUADROS Y TIJERAS";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--segu)::after {
+  content: "EQUIPO DE SEGURIDAD";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--frenos)::after {
+  content: "FRENOS";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--moto)::after {
+  content: "MOTO";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--repa)::after {
+  content: "REPARACIÓN";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--ropa)::after {
+  content: "ROPA";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer--ruedas)::after {
+  content: "RUEDAS";
+  color: rgb(255, 255, 255);
+  font-family: Lato-Black;
+  font-size: 14px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--estilo){
+  color: #ffffff;
+  font-size: 16px;
+}
+
+:global(.vtex-menu-2-x-menuContainer){
+  text-align: left !important;
+}
+
+:global(.vtex-menu-2-x-menuContainer)  :global(.vtex-store-drawer-0-x-menuIcon){
+  display: none;
+}
+
+/* Whatsapp button */
+:global(.vtex-store-components-3-x-imageElement--whatsapp){
+  position: fixed;
+  bottom: 5%;
+  left: 1%;
+}

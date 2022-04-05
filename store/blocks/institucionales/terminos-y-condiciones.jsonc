@@ -1,0 +1,46 @@
+{
+    "store.custom#texto-institucionales": {
+        "children":[
+            "flex-layout.row#titulo-condiciones",
+            "flex-layout.row#texto-condiciones",
+            "back-to-top-button"
+        ]
+      },
+  
+      "flex-layout.row#titulo-condiciones":{
+          "children":[
+              "flex-layout.col#coltit-condiciones"
+          ]
+      },
+      "flex-layout.col#coltit-condiciones":{
+          "children":[
+              "rich-text#titulo-condiciones"
+          ],"props":{
+            "horizontalAlign":"center"
+          }
+      },
+      "rich-text#titulo-condiciones":{
+          "props":{
+              "text":"## Términos y condiciones",
+              "blockClass": "titins"
+          }
+      },
+      "flex-layout.row#texto-condiciones":{
+          "children":[
+              "flex-layout.col#coltxt-condiciones"
+          ]
+      },
+      "flex-layout.col#coltxt-condiciones":{
+          "children":[
+              "rich-text#txtinst-condiciones"
+          ],
+          "props":{"blockClass":"content-institucional"}
+      },
+      "rich-text#txtinst-condiciones":{
+          "props":{
+              "text":"**INTRODUCCIÓN**\n\nAquí va el texto",
+              "blockClass":"txtins"
+          }
+      }
+  }
+  

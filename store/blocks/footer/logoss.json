@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#logoss": {
+      "children": [
+        "flex-layout.col#l1",
+        "flex-layout.col#l2"  
+      ],
+      "props": {
+        "blockClass": "logoss",
+        "marginTop": 5
+      }
+    },
+  
+    "flex-layout.col#l1": {
+      "children": [
+        "image#le1"
+      ]
+    },
+    "image#le1": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/l2.png",
+        "maxHeight": "32px"
+      }
+    },
+
+    "flex-layout.col#l2": {
+      "children": [
+        "image#le2"
+      ]
+    },
+    "image#le2": {
+      "props": {
+        "src": "https://bicimundomx.vteximg.com.br/arquivos/l1.png",
+        "maxHeight": "32px"
+      }
+    }
+  }

@@ -1,0 +1,42 @@
+{
+    "store.custom#texto-imageninst": {
+        "children":[
+            "flex-layout.row#teximg"
+        ]
+      },
+
+      "flex-layout.row#teximg":{
+          "children":[
+            "flex-layout.col#contextimg"
+          ]
+      },
+
+      "flex-layout.col#contextimg":{
+          "children":[
+              "rich-text#titulotxtimg",
+              "image#imgcont",
+              "rich-text#conttext"
+          ]
+      },
+      "rich-text#titulotxtimg":{
+          "props":{
+              "text":"### Titulo",
+              "blockClass":"textcontent"
+          }
+      },
+
+      "image#imgcont":{
+          "props":{
+              "src": "",
+              "height":520,
+              "blockClass":"imagecontent"
+           }
+      },
+
+      "rich-text#conttext":{
+          "props":{
+            "text":"#### SubTitulo \n Texto",
+            "blockClass":"textcontent"
+          }
+      }
+}

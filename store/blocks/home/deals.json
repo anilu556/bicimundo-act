@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "preserveLayoutOnMobile":true
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"coldeals"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/sitioseg.svg",
+      "maxHeight": "83px",
+      "blockClass":"imgdeals"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "Sitio Seguro",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"coldeals"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/pagotarjeta.svg",
+      "maxHeight": "83px",
+      "blockClass":"imgdeals"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "Pago con Tarjetas",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"coldeals"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/enviogratis.svg",
+      "maxHeight": "83px",
+      "blockClass":"imgdeals"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "Envío Gratis",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"coldeals"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/garantia.svg",
+      "maxHeight": "83px",
+      "blockClass":"imgdeals"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "Garantía",
+      "blockClass": "deals"
+    }
+  }
+}

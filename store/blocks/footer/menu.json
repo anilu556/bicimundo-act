@@ -1,0 +1,746 @@
+{
+  "vtex.menu@2.x:menu#bicis": {
+    "props": {
+      "orientation": "vertical",
+      "width" : "15%",
+      "blockClass":"titmenfoo"
+    },
+    "children": [
+      "menu-item#titulobicis",
+      "menu-item#carreteraf",
+      "menu-item#monta",
+      "menu-item#cuidad",
+      "menu-item#infantilf"
+    ]
+  },
+  "menu-item#titulobicis": {
+    "props": {
+    "text": "BICICLETAS",
+      "blockClass": "titulobicis",
+      "width" : "15%"
+    }
+  },
+  "menu-item#carreteraf": {
+    "props": {
+      "id": "menu-item-carretera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Carretera",
+        "noFollow": false,
+        "tagTitle": "carretera",
+        "text": "Carretera"
+
+      }
+    }
+  },
+  "menu-item#monta": {
+    "props": {
+      "id": "menu-item-monta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "Montana",
+        "noFollow": false,
+        "tagTitle": "Montaña",
+        "text": "Montaña"
+      }
+    }
+  },
+  "menu-item#cuidad": {
+    "props": {
+      "id": "menu-item-cuidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "Ciudad",
+        "noFollow": false,
+        "tagTitle": "Cuidad",
+        "text": "Cuidad"
+      }
+    }
+  },
+  "menu-item#infantilf": {
+    "props": {
+      "id": "menu-item-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  
+    "vtex.menu@2.x:menu#categorias": {
+      "props": {
+        "orientation": "vertical",
+        "width" : "15%",
+        "blockClass":"titmenfoo"
+      },
+      "children": [
+        "menu-item#titulo1",
+        "menu-item#acce",
+        "menu-item#bicis",
+        "menu-item#ropa",
+        "menu-item#herra",
+        "menu-item#repa"
+      ]
+    },
+    "menu-item#titulo1": {
+      "props": {
+      "text": "CATEGORÍAS",
+        "blockClass": "titulo1",
+        "width" : "15%"
+      }
+    },
+    "menu-item#acce": {
+      "props": {
+        "id": "menu-item-acce",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itementfoo",
+        "itemProps": {
+          "type": "internal",
+          "href": "/Accesorios",
+          "noFollow": false,
+          "tagTitle": "Accesorios",
+          "text": "Accesorios"
+
+        }
+      }
+    },
+    "menu-item#bicis": {
+      "props": {
+        "id": "menu-item-bicis",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itementfoo",
+        "itemProps": {
+          "type": "internal",
+          "href": "/Bicicletas",
+          "noFollow": false,
+          "tagTitle": "Bicicletas",
+          "text": "Bicicletas"
+        }
+      }
+    },
+    "menu-item#ropa": {
+      "props": {
+        "id": "menu-item-ropa",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itementfoo",
+        "itemProps": {
+          "type": "internal",
+          "href": "/Ropa",
+          "noFollow": false,
+          "tagTitle": "Ropa",
+          "text": "Ropa"
+        }
+      }
+    },
+    "menu-item#herra": {
+      "props": {
+        "id": "menu-item-herra",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itementfoo",
+        "itemProps": {
+          "type": "internal",
+          "href": "/Herramienta",
+          "noFollow": false,
+          "tagTitle": "Herramienta",
+          "text": "Herramientas"
+        }
+      }
+    },
+    "menu-item#repa": {
+      "props": {
+        "id": "menu-item-repa",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itementfoo",
+        "itemProps": {
+          "type": "internal",
+          "href": "/Reparaciones",
+          "noFollow": false,
+          "tagTitle": "Reparaciones",
+          "text": "Reparaciones"
+        }
+      }
+    },
+    "vtex.menu@2.x:menu#politicas": {
+      "props": {
+        "orientation": "vertical",
+        "width" : "25%"
+      },
+      "children": [
+        "rich-text#titulo4",
+        "menu-item#1",
+      "menu-item#2",
+      "menu-item#3",
+      "menu-item#4",
+      "menu-item#5",
+      "menu-item#6"
+      ]
+    },
+    "rich-text#titulo4": {
+      "props": {
+      "text": "POLÍTICAS DE PRIVACIDAD",
+        "blockClass": "titulo4",
+        "width" : "25%"
+      }
+    },
+    "menu-item#1": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-1",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Envíos",
+          "noFollow": false,
+          "tagTitle": "Envíos",
+          "text": "Envíos"
+        }
+      }
+    },
+    "menu-item#2": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-2",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Garantia",
+          "noFollow": false,
+          "tagTitle": "Garantía",
+          "text": "Garantía"
+        }
+      }
+    },
+    "menu-item#3": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-3",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Terminos-y-condiciones",
+          "noFollow": false,
+          "tagTitle": "Términos y Condiciones",
+          "text": "Términos y condiciones"
+        }
+      }
+    },
+    "menu-item#4": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-4",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Sobre-nosotros",
+          "noFollow": false,
+          "tagTitle": "Sobre nosotros",
+          "text": "Sobre nosotros"
+        }
+      }
+    },
+    "menu-item#5": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-5",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Sucursales",
+          "noFollow": false,
+          "tagTitle": "Sucursales",
+          "text": "Sucursales"
+        }
+      }
+    },
+    "menu-item#6": {
+      "props": {
+        "blockClass": "itementfoo",
+        "id": "menu-item-6",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "Contacto",
+          "noFollow": false,
+          "tagTitle": "Contacto",
+          "text": "Contacto"
+        }
+      }
+    },
+  "vtex.menu@2.x:menu#Logo": {
+    "props": {
+      "orientation": "vertical",
+      "width" : "25%"
+    },
+    "children": [
+      "image#logos"
+        ]
+  },
+  "image#logos": {
+    "props": {
+      "src": "https://bicimundomx.vteximg.com.br/arquivos/logo-blanco.png",
+        "maxHeight": "100%"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo3",
+      "flex-layout.row#redess",
+      "flex-layout.row#credes",
+      "flex-layout.row#logoss"
+    ]
+  },
+  "rich-text#titulo3": {
+    "props": {
+    "text": "SIGUENOS",
+      "blockClass": "titulo3",
+      "width" : "31%"
+    }
+  },
+  "menu-item#smartphones": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+
+  "menu-item#videogames": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Videogames",
+        "text": "Videogames"
+      }
+    }
+  },
+
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "TVs"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical",
+      "width" : "15%"
+    },
+    "children": [
+      "menu-item#bags",
+      "menu-item#backpacks",
+      "menu-item#necessaire"
+    ]
+  },
+
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Backpacks",
+        "text": "Backpacks"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical",
+      "width" : "15%"
+    },
+    "children": [
+      "rich-text#titulo2",
+      "menu-item#clothing",
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts"
+    ]
+  },
+  "rich-text#titulo2": {
+    "props": {
+    "text": "BICICLETAS",
+      "blockClass": "titulo2",
+      "width" : "15%"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contacto-mobile",
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile",
+      "social-networks"
+    ]
+  },
+  "menu-item#contacto-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "contacto",
+        "text": "CONTACTO"
+      },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contacto"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contacto": {
+    "children": ["vtex.menu@2.x:menu#footer-contacto-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-contacto-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#textoDireccion"
+
+    ]
+  },
+  
+  "rich-text#textoDireccion": {
+    "props": {
+      "text": "Llamanos: \n[01 800 502 0797](tel:018005020797) \n\nEscríbenos: \n [contacto@bicimundo.com.mx](mailto:contacto@bicimundo.com.mx)",
+      "blockClass": "textoDireccion"
+    }
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Catergorías",
+        "text": "CATEGORIAS"
+      },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#footer-clothing-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#acce1",
+      "menu-item#bicis1",
+      "menu-item#ropa1",
+      "menu-item#herra1",
+      "menu-item#repa1"
+
+    ]
+  },
+
+  "menu-item#acce1": {
+    "props": {
+      "id": "menu-item-category-acce1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+
+  "menu-item#bicis1": {
+    "props": {
+      "id": "menu-item-bicis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Bicicletas",
+        "noFollow": false,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    }
+  },
+  "menu-item#ropa1": {
+    "props": {
+      "id": "menu-item-rop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ropa",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#herra1": {
+    "props": {
+      "id": "menu-item-herra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Herramientas",
+        "noFollow": false,
+        "tagTitle": "Herramientas",
+        "text": "Herramientas"
+      }
+    }
+  },
+  "menu-item#repa1": {
+    "props": {
+      "id": "menu-item-rep",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "Reparaciones",
+        "noFollow": false,
+        "tagTitle": "Reparaciones",
+        "text": "Reparaciones"
+      }
+    }
+  },
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "BICICLETAS"
+            },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing",
+      "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts"
+
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "POLITICAS DE PRIVACIDAD"
+      },
+      "blockClass" : "titleTitleFooterMobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#1",
+      "menu-item#2",
+      "menu-item#3",
+      "menu-item#4",
+      "menu-item#5",
+      "menu-item#6"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "blockClass": "itementfoo",
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,      
+      "itemProps": {
+        "type": "internal",
+        "href": "/Carretera",
+        "noFollow": true,
+        "tagTitle": "Carretera",
+        "text": "Carretera"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Montana",
+        "noFollow": false,
+        "tagTitle": "Montaña",
+        "text": "Montaña"
+      }
+    }
+  },
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ciudad",
+        "noFollow": false,
+        "tagTitle": "Cuidad",
+        "text": "Cuidad"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itementfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  }
+}

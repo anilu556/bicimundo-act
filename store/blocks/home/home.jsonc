@@ -1,0 +1,674 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"      
+    ]
+  },
+
+//------------------------------- Inicio layout phoen --------------------------------------
+"responsive-layout.phone":{
+  "children":[
+    "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#infocards1",
+      "flex-layout.row#infocards2",
+      "flex-layout.row#titleshelf",
+      "flex-layout.row#shelf",
+      "flex-layout.row#infocards3",
+      "flex-layout.row#title-contador",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#titconoce", 
+      "flex-layout.row#marcasmobile",
+      "back-to-top-button",
+      "image#whatsapp"
+  ]
+},
+
+
+
+//------------------------------- Final layout phoen --------------------------------------
+//------------------------------- Inicio layout tablet --------------------------------------
+
+"responsive-layout.tablet":{
+  "children":[
+    "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#infocards1",
+      "flex-layout.row#infocards2",
+      "flex-layout.row#titleshelf",
+      "flex-layout.row#shelf",
+      "flex-layout.row#infocards3",
+      "flex-layout.row#title-contador",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#titconoce", 
+      "flex-layout.row#marcasmobile",
+      "back-to-top-button",
+      "image#whatsapp"
+  ]
+},
+
+"flex-layout.row#marcasmobile":{
+  "title":"Row Slider Marcas",
+  "children":[
+    "list-context.image-list#marcas"
+  ]
+},
+"list-context.image-list#marcas": {
+  "title":"ListContent Marcas Mob.",
+  "children": ["slider-layout#marcas"],
+  "props": {
+    "images": [
+      {
+        "image": "arquivos/alubike.png"
+      },
+      {
+        "image": "arquivos/benotto.png"
+      },
+      {
+        "image": "arquivos/continental.png"
+      },
+      {
+        "image": "arquivos/camelback.png"
+      },
+      {
+        "image": "arquivos/giro.png"
+      },
+      {
+        "image": "arquivos/giant.png"
+      },
+      {
+        "image": "arquivos/kali.png"
+      },
+      {
+        "image": "arquivos/kenda.png"
+      },
+      {
+        "image": "arquivos/kmc.png"
+      },
+      {
+        "image": "arquivos/lazer.png"
+      },
+      {
+        "image": "arquivos/liv.png"
+      },
+      {
+        "image": "arquivos/lizardskins.png"
+      },
+      {
+        "image": "arquivos/neco.png"
+      },
+      {
+        "image": "arquivos/shimano.png"
+      },
+      {
+        "image": "arquivos/tacx.png"
+      },
+      {
+        "image": "arquivos/met.png"
+      },
+      {
+        "image": "arquivos/michelin.png"
+      },
+      {
+        "image": "arquivos/schwalbe.png"
+      },
+      {
+        "image": "arquivos/topeak.png"
+      },
+      {
+        "image": "arquivos/vital.png"
+      }
+    ]
+  }
+},
+"slider-layout#marcas": {
+  "title":"Slider Layout Marcas Mobile",
+  "props": {
+    "blockClass":"carrumarcas",
+    "itemsPerPage": {
+      "desktop":4,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "showPaginationDots":"mobileOnly"
+  }
+},
+
+
+
+
+//------------------------------- Final layout tablet ----------------------------------------
+
+
+
+
+
+//--------------------------------- Inicio layout Desktop-----------------------------------------
+  "responsive-layout.desktop":{
+    "children":[
+      "list-context.image-list#demo",
+      //"flex-layout.row#contadorCap",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#infocards1",
+      "flex-layout.row#infocards2",
+      "flex-layout.row#titleshelf",
+      "flex-layout.row#shelf",
+      "flex-layout.row#infocards3",
+      "flex-layout.row#title-contador",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#titconoce", 
+      "flex-layout.row#marcas",
+      "back-to-top-button",
+      "image#whatsapp"
+    ]
+  },
+
+
+  "image#whatsapp":{
+    "props":{
+      "blockClass":"whatsapp",
+      "src":"assets/whatsappb.png",
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=+5217971037260"  
+      }
+    }
+  },
+
+  "list-context.image-list#demo": {
+    "title":"Slider Principal",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/bannerprin.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/bannerprin.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "title":"Slider Layout Principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    }
+  },
+//--------------------- Inicio Renglon IC 1-------------------------------
+  "flex-layout.row#infocards1":{
+    "title":"Row Info-cards 1",
+    "children":[
+      "flex-layout.col#icizq1",
+      "flex-layout.col#icder1"
+    ],"props":{
+      "fullWidth":true,
+      "blockClass":"rowic"
+    }
+  },
+  "flex-layout.col#icizq1":{
+    "title":"Columna Info-card izq1",
+    "children":[
+      "info-card#izq1"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },
+  "flex-layout.col#icder1":{
+    "title":"Columna Info-card der1",
+    "children":[
+      "info-card#der1"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },"info-card#izq1":{
+    "title":"Infocard Izquierda 1",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgizq1.jpeg",
+      "headline": "Descubre nuevas bicicletas",
+      "subhead": "Bicicletas para todos",
+      "callToActionText": "Ver Bicicletas",
+      "callToActionUrl": "/bicicletas",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#der1":{
+    "title":"Infocard derecha 1",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgder1.jpeg",
+      "headline": "Descubre nuevas playeras",
+      "subhead": "Playeras para todos",
+      "callToActionText": "Ver Playeras",
+      "callToActionUrl": "/Playeras",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+
+//--------------------- Final Renglon IC 1-------------------------------
+//--------------------- Inicio Renglon IC 2-------------------------------
+  "flex-layout.row#infocards2":{
+    "title":"Row Info-cards 2",
+    "children":[
+      "flex-layout.col#icizq2",
+      "flex-layout.col#icder2"
+    ],"props":{
+      "fullWidth":true,
+      "blockClass":"rowic"
+    }
+  },
+  "flex-layout.col#icizq2":{
+    "title":"Col IC izq 2",
+    "children":[
+      "info-card#izq2"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },
+  "flex-layout.col#icder2":{
+    "title":"Col IC der 2",
+    "children":[
+      "info-card#der2"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },"info-card#izq2":{
+    "title":"Infocard Izquierda 2",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgizq2.jpeg",
+      "headline": "Descubre nuevos cascos",
+      "callToActionText": "Ver Cascos",
+      "subhead": "Cascos para todos",
+      "callToActionUrl": "/Cascos",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#der2":{
+    "title":"Infocard derecha 2",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgder2.jpeg",
+      "headline": "El mejor taller",
+      "callToActionText": "Ver Reparación",
+      "subhead": "Reparación de bicicletas",
+      "callToActionUrl": "/Reparacion",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+//--------------------- Final Renglon IC 1-------------------------------
+//--------------------- Inicio Renglon IC 3-------------------------------
+
+  "flex-layout.row#infocards3":{
+    "title":"Row Info-cards 3",
+    "children":[
+      "flex-layout.col#icizq3",
+      "flex-layout.col#icder3"
+    ],"props":{
+      "blockClass":"rowic",
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#icizq3":{
+    "title":"Col IC izq 3",
+    "children":[
+      "info-card#izq3"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },
+  "flex-layout.col#icder3":{
+    "title":"Col IC der 3",
+    "children":[
+      "info-card#der3"
+    ],"props":{
+      "blockClass":"colic"
+    }
+  },"info-card#izq3":{
+    "title":"Infocard Izquierda 3",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgizq3.jpeg",
+      "headline": "Descubre nueva colección",
+      "callToActionText": "Ver Novedades",
+      "subhead": "Todo lo nuevo",
+      "callToActionUrl": "/Novedades",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#der3":{
+    "title":"Infocard derecha 3",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/icbgder3.jpeg",
+      "headline": "Descubre últimas ofertas",
+      "callToActionText": "Ver Ofertas",
+      "subhead": "Super ofertas",
+      "callToActionUrl": "/Ofertas",
+      "blockClass": "seccionic",
+      "textAlignment": "left"
+    }
+  },
+
+  //--------------------- Final Renglon IC 3 -------------------------------
+//-------------------------- Inicio titulo contador -------------------------
+  "flex-layout.row#title-contador":{
+    "title":"Row Titulo-Contador",
+    "children":[
+      "flex-layout.col#titshelf",
+      "flex-layout.col#contador"
+    ]
+  },
+  "flex-layout.col#titshelf":{
+    "title":"Col Titulo-Contador",
+    "children":[
+      "rich-text#tituloshelf"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },"rich-text#tituloshelf":{
+    "title":"Texto Ofertas",
+    "props":{
+      "text": "## OFERTAS REBAJAS",
+      "blockClass": "offcont"
+    }
+  },
+  //-------------------------- Final titulo contador -------------------------
+
+  //-------------------------- Inicio contador -------------------------
+  "flex-layout.col#contador":{
+    "title":"Col Contador",
+    "children":[
+      "flex-layout.row#contadorRow"
+    ],"props":{
+      "verticalAlign":"middle"
+    }
+  },
+  "flex-layout.row#contadorRow" : {
+    "children":[
+      "countdown"
+    ], 
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "ofertaCount"
+    }
+  },
+ //-------------------------- Final contador -------------------------
+ //-------------------------- Inicio titulo lo mas vendido -------------------------
+ "flex-layout.row#titleshelf":{
+   "title":"Row Más Vendido",
+   "children":[
+    "rich-text#shelf-title"
+   ],"props":{
+     "horizontalAlign":"center"
+   }
+ },
+ 
+ "rich-text#shelf-title": {
+   "title":"Texto Más Vendido",
+    "props": {
+      "text": "## LO MÁS VENDIDO",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  //-------------------------- Final titulo lo mas vendido -------------------------
+
+
+  "flex-layout.row#shelf": {
+    "title":"Carrusel Lo más Vendido",
+    "children": [
+      "list-context.product-list#demo1"
+    ],
+    "props":{
+      "fullWidth":true
+    }
+  },
+  "list-context.product-list#demo1": {
+    "title":"List Content Lo Más Vendido",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "title":"Slider-Layout Lo Más Vendido",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+// ---------------------- Inicio Shelf ofertas-rebajas -----------------------------
+  "flex-layout.row#shelf2":{
+    "title":"Row Ofertas",
+    "children":[
+      "list-context.product-list#demo2"
+    ],
+    "props":{
+      "fullWidth":true
+    }
+  },
+  "list-context.product-list#demo2": {
+    "title":"List Content Carrusel Ofertas",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "title":"Slider-layout Carrusel Ofertas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  // ---------------------- Final Shelf ofertas-rebajas -----------------------------
+  // ---------------------- Inicio Slider Conoce marcas -----------------------------
+
+  "flex-layout.row#titconoce":{
+    "title":"RowTituloConoce",
+    "children":[
+      "flex-layout.col#titmarcas"      
+    ]
+  },"flex-layout.col#titmarcas":{
+    "title":"ColTituloConoce",
+    "children":[
+      "rich-text#titconoce"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },
+  "rich-text#titconoce":{
+    "title":"TituloConoce",
+    "props":{
+      "text":"## CONOCE NUESTRAS MARCAS",
+      "blockClass": "titconoce"
+    }
+  },
+  
+  "flex-layout.row#marcas":{
+    "title":"Row título Marcas",
+    "children":[
+      "list-context.image-list#marcas"
+      //"flex-layout.col#marcas"
+    ],"props":{
+      "fullWidth":true
+    }
+  },
+
+  "flex-layout.col#marcas":{
+    "title":"Col título Marcas",
+    "children":[
+      "flex-layout.row#marcas1",
+      "flex-layout.row#marcas2"
+    ]
+  },
+  "flex-layout.row#marcas1":{
+    "title":"Row1 Imagenes Marcas",
+    "children":[
+      "image#row11",
+      "image#row12",
+      "image#row13",
+      "image#row14",
+      "image#row15"
+    ],"props":{
+      "marginTop": 5
+    }
+  },
+  "image#row11":{
+    "title":"Imagen 1",
+    "props":{
+      "height":"37px",
+      "src":"assets/alubike.png"
+    }
+  },
+  "image#row12":{
+    "title":"Imagen 2",
+    "props":{
+      "height":"37px",
+      "src":"assets/shimano.png"
+    }
+  },
+  "image#row13":{
+    "title":"Imagen 3",
+    "props":{
+      "height":"37px",
+      "src":"assets/alubike.png"
+    }
+  },
+  "image#row14":{
+    "title":"Imagen 4",
+    "props":{
+      "height":"37px",
+      "src":"assets/finishline.png"
+    }
+  },
+  "image#row15":{
+    "title":"Imagen 5",
+    "props":{
+      "height":"37px",
+      "src":"assets/alubike.png"
+    }
+  },
+  
+  
+  "flex-layout.row#marcas2":{
+    "title":"Row2 Imagen Marcas",
+    "children":[
+      "image#row21",
+      "image#row22",
+      "image#row23",
+      "image#row24",
+      "image#row25"
+    ],"props":{
+      "marginTop": 7,
+      "marginBottom": 7
+    }
+  },
+  "image#row21":{
+    "title":"Imagen 21",
+    "props":{
+      "height":"37px",
+      "src":"assets/lazer.png"
+    }
+  },
+  "image#row22":{
+    "title":"Imagen 22",
+    "props":{
+      "height":"37px",
+      "src":"assets/wtb.png"
+    }
+  },
+  "image#row23":{
+    "title":"Imagen 23",
+    "props":{
+      "height":"37px",
+      "src":"assets/saiguan.jpeg"
+    }
+  },
+  "image#row24":{
+    "title":"Imagen 24",
+    "props":{
+      "height":"37px",
+      "src":"assets/veloci.png"
+    }
+  },
+  "image#row25":{
+    "title":"Imagen 25",
+    "props":{
+      "height":"37px",
+      "src":"assets/vittoria.jpeg"
+    }
+  },
+  
+// ---------------------- Final Slider Conoce marcas -----------------------------
+
+"back-to-top-button":{
+  "props":{
+    "display": "caret-icon"
+  }
+}
+
+}
