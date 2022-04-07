@@ -1641,3 +1641,38 @@
   bottom: 5%;
   left: 1%;
 }
+
+/*Institucionales*/
+:global(.vtex-rich-text-0-x-container--textcontent ){
+  max-width: 1050px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-rich-text-0-x-container--textcontent ){
+    max-width: 850px;
+    margin: auto;
+  }
+}  
+
+@media (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-container--textcontent ){
+    max-width: 650px;
+    margin: auto;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--textcontent){
+    font-size: 18px !important;
+  }
+} 
+
+@media (max-width: 450px) {
+  :global(.vtex-rich-text-0-x-container--textcontent){
+    max-width: 350px;
+    margin: auto;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--textcontent){
+    font-size: 14px !important;
+  }
+} 
