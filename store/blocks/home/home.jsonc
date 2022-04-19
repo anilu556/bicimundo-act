@@ -15,11 +15,11 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#infocards1",
-      "flex-layout.row#infocards2",
+      "flex-layout.row#promo1-desk",
+      "flex-layout.row#promo2-desk",
       "flex-layout.row#titleshelf",
       "flex-layout.row#shelf",
-      "flex-layout.row#infocards3",
+      "flex-layout.row#promo3-desk",
       "flex-layout.row#title-contador",
       "flex-layout.row#shelf2",
       "flex-layout.row#titconoce", 
@@ -40,11 +40,11 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#infocards1",
-      "flex-layout.row#infocards2",
+      "flex-layout.row#promo1-desk",
+      "flex-layout.row#promo2-desk",
       "flex-layout.row#titleshelf",
       "flex-layout.row#shelf",
-      "flex-layout.row#infocards3",
+      "flex-layout.row#promo3-desk",
       "flex-layout.row#title-contador",
       "flex-layout.row#shelf2",
       "flex-layout.row#titconoce", 
@@ -154,11 +154,11 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#infocards1",
-      "flex-layout.row#infocards2",
+      "flex-layout.row#promo1-desk",
+      "flex-layout.row#promo2-desk",
       "flex-layout.row#titleshelf",
       "flex-layout.row#shelf",
-      "flex-layout.row#infocards3",
+      "flex-layout.row#promo3-desk",
       "flex-layout.row#title-contador",
       "flex-layout.row#shelf2",
       "flex-layout.row#titconoce", 
@@ -210,175 +210,108 @@
       "blockClass": "carousel"
     }
   },
-//--------------------- Inicio Renglon IC 1-------------------------------
-  "flex-layout.row#infocards1":{
-    "title":"Row Info-cards 1",
-    "children":[
-      "flex-layout.col#icizq1",
-      "flex-layout.col#icder1"
-    ],"props":{
-      "fullWidth":true,
-      "blockClass":"rowic"
-    }
-  },
-  "flex-layout.col#icizq1":{
-    "title":"Columna Info-card izq1",
-    "children":[
-      "info-card#izq1"
-    ],"props":{
-      "blockClass":"colic"
-    }
-  },
-  "flex-layout.col#icder1":{
-    "title":"Columna Info-card der1",
-    "children":[
-      "info-card#der1"
-    ],"props":{
-      "blockClass":"colic"
-    }
-  },"info-card#izq1":{
-    "title":"Infocard Izquierda 1",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgizq1.jpeg",
-      "headline": "Descubre nuevas bicicletas",
-      "subhead": "Bicicletas para todos",
-      "callToActionText": "Ver Bicicletas",
-      "callToActionUrl": "/bicicletas",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
-    }
-  },
-  "info-card#der1":{
-    "title":"Infocard derecha 1",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgder1.jpeg",
-      "headline": "Descubre nuevas playeras",
-      "subhead": "Playeras para todos",
-      "callToActionText": "Ver Playeras",
-      "callToActionUrl": "/Playeras",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
-    }
-  },
 
-//--------------------- Final Renglon IC 1-------------------------------
-//--------------------- Inicio Renglon IC 2-------------------------------
-  "flex-layout.row#infocards2":{
-    "title":"Row Info-cards 2",
+  //--------------------- Inicio Renglon 1 PROMOCIONES Desk -------------------------------
+  "flex-layout.row#promo1-desk":{
     "children":[
-      "flex-layout.col#icizq2",
-      "flex-layout.col#icder2"
+      "image#img1-promo1-desk",
+      "image#img2-promo1-desk"
     ],"props":{
-      "fullWidth":true,
-      "blockClass":"rowic"
+      // "fullWidth":true,
+      "blockClass":"row-promo-desk"
     }
   },
-  "flex-layout.col#icizq2":{
-    "title":"Col IC izq 2",
-    "children":[
-      "info-card#izq2"
-    ],"props":{
-      "blockClass":"colic"
+  
+  "image#img1-promo1-desk":{
+    "props":{
+      "fullWidth": true,
+      "blockClass":"img-promo-desk",
+      "src":"assets/img1-promo1.jpeg",
+      "link": {
+        "url": "/bicicletas"  
+      }
     }
   },
-  "flex-layout.col#icder2":{
-    "title":"Col IC der 2",
-    "children":[
-      "info-card#der2"
-    ],"props":{
-      "blockClass":"colic"
-    }
-  },"info-card#izq2":{
-    "title":"Infocard Izquierda 2",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgizq2.jpeg",
-      "headline": "Descubre nuevos cascos",
-      "callToActionText": "Ver Cascos",
-      "subhead": "Cascos para todos",
-      "callToActionUrl": "/Cascos",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
+  
+  
+  "image#img2-promo1-desk":{
+    "props":{
+      "blockClass":"img-promo-desk",
+      "src":"assets/img2-promo1.jpeg",
+      "link": {
+        "url": "#"  
+      }
     }
   },
-  "info-card#der2":{
-    "title":"Infocard derecha 2",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgder2.jpeg",
-      "headline": "El mejor taller",
-      "callToActionText": "Ver Reparación",
-      "subhead": "Reparación de bicicletas",
-      "callToActionUrl": "/Reparacion",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
-    }
-  },
-//--------------------- Final Renglon IC 1-------------------------------
-//--------------------- Inicio Renglon IC 3-------------------------------
+  //--------------------- Final Renglon 2 PROMOCIONES Desk -------------------------------
 
-  "flex-layout.row#infocards3":{
-    "title":"Row Info-cards 3",
+  //--------------------- Inicio Renglon 2 PROMOCIONES Desk -------------------------------
+  "flex-layout.row#promo2-desk":{
     "children":[
-      "flex-layout.col#icizq3",
-      "flex-layout.col#icder3"
+      "image#img1-promo2-desk",
+      "image#img2-promo2-desk"
     ],"props":{
-      "blockClass":"rowic",
-      "fullWidth":true
+      // "fullWidth":true,
+      "blockClass":"row-promo-desk"
     }
   },
-  "flex-layout.col#icizq3":{
-    "title":"Col IC izq 3",
-    "children":[
-      "info-card#izq3"
-    ],"props":{
-      "blockClass":"colic"
+  
+  "image#img1-promo2-desk":{
+    "props":{
+      "blockClass":"img-promo-desk",
+      "src":"assets/img1-promo2.jpeg",
+      "link": {
+        "url": "/cascos"  
+      }
     }
   },
-  "flex-layout.col#icder3":{
-    "title":"Col IC der 3",
-    "children":[
-      "info-card#der3"
-    ],"props":{
-      "blockClass":"colic"
-    }
-  },"info-card#izq3":{
-    "title":"Infocard Izquierda 3",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgizq3.jpeg",
-      "headline": "Descubre nueva colección",
-      "callToActionText": "Ver Novedades",
-      "subhead": "Todo lo nuevo",
-      "callToActionUrl": "/Novedades",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
+  
+  
+  "image#img2-promo2-desk":{
+    "props":{
+      "blockClass":"img-promo-desk",
+      "src":"assets/img2-promo2.jpeg",
+      "link": {
+        "url": "#"  
+      }
     }
   },
-  "info-card#der3":{
-    "title":"Infocard derecha 3",
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/icbgder3.jpeg",
-      "headline": "Descubre últimas ofertas",
-      "callToActionText": "Ver Ofertas",
-      "subhead": "Super ofertas",
-      "callToActionUrl": "/Ofertas",
-      "blockClass": "seccionic",
-      "textAlignment": "left"
-    }
-  },
+  //--------------------- Final Renglon 2 PROMOCIONES Desk -------------------------------
 
-  //--------------------- Final Renglon IC 3 -------------------------------
-//-------------------------- Inicio titulo contador -------------------------
+  //--------------------- Inicio Renglon 3 PROMOCIONES Desk -------------------------------
+  "flex-layout.row#promo3-desk":{
+    "children":[
+      "image#img1-promo3-desk",
+      "image#img2-promo3-desk"
+    ],"props":{
+      // "fullWidth":true,
+      "blockClass":"row-promo-desk"
+    }
+  },
+  
+  "image#img1-promo3-desk":{
+    "props":{
+      "blockClass":"img-promo-desk",
+      "src":"assets/img1-promo3.jpeg",
+      "link": {
+        "url": "/Novedades"  
+      }
+    }
+  },
+  
+  
+  "image#img2-promo3-desk":{
+    "props":{
+      "blockClass":"img-promo-desk",
+      "src":"assets/img2-promo3.jpeg",
+      "link": {
+        "url": "/Ofertas"  
+      }
+    }
+  },
+  //--------------------- Final Renglon 3 PROMOCIONES Desk -------------------------------
+
+  //-------------------------- Inicio titulo contador -------------------------
   "flex-layout.row#title-contador":{
     "title":"Row Titulo-Contador",
     "children":[

@@ -128,16 +128,6 @@
   background-position: top;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--colic){
-  padding-top: 3%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--rowic){
-  padding-left: 4%;
-  padding-right: 4%;
-}
 
 :global(.vtex-store-components-3-x-infoCardTextContainer--seccionic){
   width: 100%;
@@ -1676,3 +1666,66 @@
     font-size: 14px !important;
   }
 } 
+
+/* Inicio Estilo en bloques de imágenes promocionales HOME */
+@media (min-width: 1026px) {
+  :global(.vtex-store-components-3-x-imageElement--img-promo-desk) {
+    width: 98% !important;
+    padding: 3% 1% 0 1% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-promo-desk) :global(.vtex-store-components-3-x-container):first-child{
+    padding: 0px 4%;
+  }
+}
+@media (max-width: 1025px) {
+  :global(.vtex-store-components-3-x-imageElement--img-promo-desk) {
+    width: 98% !important;
+    padding: 3% 1% 0 1% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-promo-desk) :global(.vtex-store-components-3-x-container):first-child {
+    padding: 0px 4%;
+  }
+}
+/* Final Estilo en bloques de imágenes promocionales HOME */
+
+/* Inicio - Estilos submenu Marcas */
+:global(.vtex-menu-2-x-styledLinkContent--brand-menu) {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Lato-Bold';
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--estilo) {
+  margin: 0px !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--estilo){
+  color: #ffffff;
+  font-family: Lato-Black;
+  font-size: 14px;
+  padding: 12px;
+  text-transform: uppercase;
+}
+/* Final - Estilos submenu Marcas */
+
+/*------------------------------------ Inicio - PDP */
+
+/* Inicio - button MOSTRAR MÁS */
+:global(.vtex-store-components-3-x-showMoreButton) {
+  background-color: #385dae;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 12px;
+  max-height: 40px;
+}
+/* Final - button MOSTRAR MÁS */
+
+/* Inicio - Descripción */
+:global(.vtex-menu-2-x-menuItem--isClosed) {
+  max-height: 48px;
+}
+:global(.vtex-menu-2-x-menuItem--isClosed) :global(.vtex-flex-layout-0-x-flexCol--descfeaturess) {
+  display: none;
+}
+/* Final - Descripción */
+
+/* Final - button MOSTRAR MÁS PDP */

@@ -322,7 +322,7 @@
   "menu#drawer": {
     "children": [
       "menu-item#cats-mobile",
-      "menu-item#marcas",
+      "menu-item#brands-mobile",
       "menu-item#montana",
       "menu-item#carretera",
       "menu-item#ciudad",

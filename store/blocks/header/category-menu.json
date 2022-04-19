@@ -126,12 +126,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Marcas",
+        "href": "",
         "noFollow": false,
         "tagTitle": "MARCAS",
         "text": "MARCAS"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#brand"
+    ]
   },
 
   "menu-item#montana": {
@@ -444,7 +447,7 @@
   },
   "vtex.menu@2.x:menu#cuadros": {
     "props": {
-      "categoryId": 1,
+      "categoryId": 5,
       "orientation": "vertical",
       "blockClass": ["cuadros","estilo"]
     }

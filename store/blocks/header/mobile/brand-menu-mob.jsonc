@@ -1,0 +1,1151 @@
+{
+    "menu-item#brands-mobile": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "Marcas",
+                "text": "MARCAS"
+            },
+            "blockClass": "menprinfoo"
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#brandsmob"]
+    },
+    "vtex.menu@2.x:submenu.accordion#brandsmob": {
+        "children": ["vtex.menu@2.x:menu#brandsmobile"],
+        "props": {"blockClass": "submendrawh"}
+    },
+    "vtex.menu@2.x:menu#brandsmobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "tituloMenu"
+        },
+        "children": [
+            "menu-item#itembrand1-mob",
+            "menu-item#itembrand2-mob",
+            "menu-item#itembrand3-mob",
+            "menu-item#itembrand4-mob",
+            "menu-item#itembrand5-mob",
+            "menu-item#itembrand6-mob",
+            "menu-item#itembrand7-mob",
+            "menu-item#itembrand8-mob",
+            "menu-item#itembrand9-mob",
+            "menu-item#itembrand10-mob",
+            "menu-item#itembrand11-mob",
+            "menu-item#itembrand12-mob",
+            "menu-item#itembrand13-mob",
+            "menu-item#itembrand14-mob",
+            "menu-item#itembrand15-mob",
+            "menu-item#itembrand16-mob",
+            "menu-item#itembrand17-mob",
+            "menu-item#itembrand18-mob",
+            "menu-item#itembrand19-mob",
+            "menu-item#itembrand20-mob",
+            "menu-item#itembrand21-mob",
+            "menu-item#itembrand22-mob",
+            "menu-item#itembrand23-mob",
+            "menu-item#itembrand24-mob",
+            "menu-item#itembrand25-mob",
+            "menu-item#itembrand26-mob",
+            "menu-item#itembrand27-mob",
+            "menu-item#itembrand28-mob",
+            "menu-item#itembrand29-mob",
+            "menu-item#itembrand30-mob",
+            "menu-item#itembrand31-mob",
+            "menu-item#itembrand32-mob",
+            "menu-item#itembrand33-mob",
+            "menu-item#itembrand34-mob",
+            "menu-item#itembrand35-mob",
+            "menu-item#itembrand36-mob",
+            "menu-item#itembrand37-mob",
+            "menu-item#itembrand38-mob",
+            "menu-item#itembrand39-mob",
+            "menu-item#itembrand40-mob",
+            "menu-item#itembrand41-mob",
+            "menu-item#itembrand42-mob",
+            "menu-item#itembrand43-mob",
+            "menu-item#itembrand44-mob",
+            "menu-item#itembrand45-mob",
+            "menu-item#itembrand46-mob",
+            "menu-item#itembrand47-mob",
+            "menu-item#itembrand48-mob",
+            "menu-item#itembrand49-mob",
+            "menu-item#itembrand50-mob",
+            "menu-item#itembrand51-mob",
+            "menu-item#itembrand52-mob",
+            "menu-item#itembrand53-mob",
+            "menu-item#itembrand54-mob",
+            "menu-item#itembrand55-mob",
+            "menu-item#itembrand56-mob",
+            "menu-item#itembrand57-mob",
+            "menu-item#itembrand58-mob",
+            "menu-item#itembrand59-mob"
+        ]
+    },
+
+    "menu-item#itembrand1-mob": {
+        "props": {
+            "id": "menu-item-brand-1-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Alubike",
+                "noFollow": false,
+                "tagTitle": "Alubike",
+                "text": "Alubike"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand2-mob": {
+        "props": {
+            "id": "menu-item-brand-2-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Benotto",
+                "noFollow": false,
+                "tagTitle": "Benotto",
+                "text": "Benotto"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand3-mob": {
+        "props": {
+            "id": "menu-item-brand-3-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Camelback",
+                "noFollow": false,
+                "tagTitle": "Camelback",
+                "text": "Camelback"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand4-mob": {
+        "props": {
+            "id": "menu-item-brand-4-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Continental",
+                "noFollow": false,
+                "tagTitle": "Continental",
+                "text": "Continental"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand5-mob": {
+        "props": {
+            "id": "menu-item-brand-5-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/CrankBrothers",
+                "noFollow": false,
+                "tagTitle": "CrankBrothers",
+                "text": "CrankBrothers"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand6-mob": {
+        "props": {
+            "id": "menu-item-brand-6-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/CST",
+                "noFollow": false,
+                "tagTitle": "CST",
+                "text": "CST"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand7-mob": {
+        "props": {
+            "id": "menu-item-brand-7-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Giant",
+                "noFollow": false,
+                "tagTitle": "Giant",
+                "text": "Giant"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand8-mob": {
+        "props": {
+            "id": "menu-item-brand-8-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Giro",
+                "noFollow": false,
+                "tagTitle": "Giro",
+                "text": "Giro"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand9-mob": {
+        "props": {
+            "id": "menu-item-brand-9-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Kali Protectives",
+                "noFollow": false,
+                "tagTitle": "Kali Protectives",
+                "text": "Kali Protectives"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand10-mob": {
+        "props": {
+            "id": "menu-item-brand-10-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Karma",
+                "noFollow": false,
+                "tagTitle": "Karma",
+                "text": "Karma"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand11-mob": {
+        "props": {
+            "id": "menu-item-brand-11-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Kenda",
+                "noFollow": false,
+                "tagTitle": "Kenda",
+                "text": "Kenda"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand12-mob": {
+        "props": {
+            "id": "menu-item-brand-12-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/KMC",
+                "noFollow": false,
+                "tagTitle": "KMC",
+                "text": "KMC"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand13-mob": {
+        "props": {
+            "id": "menu-item-brand-13-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Lazer",
+                "noFollow": false,
+                "tagTitle": "Lazer",
+                "text": "Lazer"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand14-mob": {
+        "props": {
+            "id": "menu-item-brand-14-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Liv",
+                "noFollow": false,
+                "tagTitle": "Liv",
+                "text": "Liv"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand15-mob": {
+        "props": {
+            "id": "menu-item-brand-15-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Lizard Skins",
+                "noFollow": false,
+                "tagTitle": "Lizard Skins",
+                "text": "Lizard Skins"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand16-mob": {
+        "props": {
+            "id": "menu-item-brand-16-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Maxxis",
+                "noFollow": false,
+                "tagTitle": "Maxxis",
+                "text": "Maxxis"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand17-mob": {
+        "props": {
+            "id": "menu-item-brand-17-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Mercurio",
+                "noFollow": false,
+                "tagTitle": "Mercurio",
+                "text": "Mercurio"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand18-mob": {
+        "props": {
+            "id": "menu-item-brand-18-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Met",
+                "noFollow": false,
+                "tagTitle": "Met",
+                "text": "Met"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand19-mob": {
+        "props": {
+            "id": "menu-item-brand-19-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Michellin",
+                "noFollow": false,
+                "tagTitle": "Michellin",
+                "text": "Michellin"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand20-mob": {
+        "props": {
+            "id": "menu-item-brand-20-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Windsor",
+                "noFollow": false,
+                "tagTitle": "Windsor",
+                "text": "Windsor"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+
+
+
+
+
+    "menu-item#itembrand21-mob": {
+        "props": {
+            "id": "menu-item-brand-21-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Zoom",
+                "noFollow": false,
+                "tagTitle": "Zoom",
+                "text": "Zoom"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand22-mob": {
+        "props": {
+            "id": "menu-item-brand-22-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Alex Rims",
+                "noFollow": false,
+                "tagTitle": "Alex Rims",
+                "text": "Alex Rims"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand23-mob": {
+        "props": {
+            "id": "menu-item-brand-23-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Alhonga",
+                "noFollow": false,
+                "tagTitle": "Alhonga",
+                "text": "Alhonga"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand24-mob": {
+        "props": {
+            "id": "menu-item-brand-24-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/All Time",
+                "noFollow": false,
+                "tagTitle": "All Time",
+                "text": "All Time"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand25-mob": {
+        "props": {
+            "id": "menu-item-brand-25-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Tacx",
+                "noFollow": false,
+                "tagTitle": "Tacx",
+                "text": "Tacx"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand26-mob": {
+        "props": {
+            "id": "menu-item-brand-26-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Topeak",
+                "noFollow": false,
+                "tagTitle": "Topeak",
+                "text": "Topeak"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand27-mob": {
+        "props": {
+            "id": "menu-item-brand-27-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Vital",
+                "noFollow": false,
+                "tagTitle": "Vital",
+                "text": "Vital"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand28-mob": {
+        "props": {
+            "id": "menu-item-brand-28-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Wander",
+                "noFollow": false,
+                "tagTitle": "Wander",
+                "text": "Wander"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand29-mob": {
+        "props": {
+            "id": "menu-item-brand-29-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Arisun",
+                "noFollow": false,
+                "tagTitle": "Arisun",
+                "text": "Arisun"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand30-mob": {
+        "props": {
+            "id": "menu-item-brand-30-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Bike Hand",
+                "noFollow": false,
+                "tagTitle": "Bike Hand",
+                "text": "Bike Hand"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand31-mob": {
+        "props": {
+            "id": "menu-item-brand-31-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Clarks",
+                "noFollow": false,
+                "tagTitle": "Clarks",
+                "text": "Clarks"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand32-mob": {
+        "props": {
+            "id": "menu-item-brand-32-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Duratrex",
+                "noFollow": false,
+                "tagTitle": "Duratrex",
+                "text": "Duratrex"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand33-mob": {
+        "props": {
+            "id": "menu-item-brand-33-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Elite",
+                "noFollow": false,
+                "tagTitle": "Elite",
+                "text": "Elite"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand34-mob": {
+        "props": {
+            "id": "menu-item-brand-34-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Fabric",
+                "noFollow": false,
+                "tagTitle": "Fabric",
+                "text": "Fabric"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand35-mob": {
+        "props": {
+            "id": "menu-item-brand-35-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/FSA",
+                "noFollow": false,
+                "tagTitle": "FSA",
+                "text": "FSA"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand36-mob": {
+        "props": {
+            "id": "menu-item-brand-36-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Ghost",
+                "noFollow": false,
+                "tagTitle": "Ghost",
+                "text": "Ghost"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand37-mob": {
+        "props": {
+            "id": "menu-item-brand-37-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Hard Line",
+                "noFollow": false,
+                "tagTitle": "Hard Line",
+                "text": "Hard Line"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand38-mob": {
+        "props": {
+            "id": "menu-item-brand-38-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Hunter",
+                "noFollow": false,
+                "tagTitle": "Hunter",
+                "text": "Hunter"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand39-mob": {
+        "props": {
+            "id": "menu-item-brand-39-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Lezyne",
+                "noFollow": false,
+                "tagTitle": "Lezyne",
+                "text": "Lezyne"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand40-mob": {
+        "props": {
+            "id": "menu-item-brand-40-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Lotus",
+                "noFollow": false,
+                "tagTitle": "Lotus",
+                "text": "Lotus"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand41-mob": {
+        "props": {
+            "id": "menu-item-brand-41-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Ontrack",
+                "noFollow": false,
+                "tagTitle": "Ontrack",
+                "text": "Ontrack"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand42-mob": {
+        "props": {
+            "id": "menu-item-brand-42-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Prowheel",
+                "noFollow": false,
+                "tagTitle": "Prowheel",
+                "text": "Prowheel"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand43-mob": {
+        "props": {
+            "id": "menu-item-brand-43-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Roller",
+                "noFollow": false,
+                "tagTitle": "Roller",
+                "text": "Roller"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand44-mob": {
+        "props": {
+            "id": "menu-item-brand-44-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Selle Royal",
+                "noFollow": false,
+                "tagTitle": "Selle Royal",
+                "text": "Selle Royal"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand45-mob": {
+        "props": {
+            "id": "menu-item-brand-45-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Serfas",
+                "noFollow": false,
+                "tagTitle": "Serfas",
+                "text": "Serfas"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand46-mob": {
+        "props": {
+            "id": "menu-item-brand-46-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Shimano SSC",
+                "noFollow": false,
+                "tagTitle": "Shimano SSC",
+                "text": "Shimano SSC"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand47-mob": {
+        "props": {
+            "id": "menu-item-brand-47-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Sram",
+                "noFollow": false,
+                "tagTitle": "Sram",
+                "text": "Sram"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand48-mob": {
+        "props": {
+            "id": "menu-item-brand-48-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Sun Race",
+                "noFollow": false,
+                "tagTitle": "Sun Race",
+                "text": "Sun Race"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand49-mob": {
+        "props": {
+            "id": "menu-item-brand-49-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Suntour",
+                "noFollow": false,
+                "tagTitle": "Suntour",
+                "text": "Suntour"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand50-mob": {
+        "props": {
+            "id": "menu-item-brand-50-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Tec",
+                "noFollow": false,
+                "tagTitle": "Tec",
+                "text": "Tec"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand51-mob": {
+        "props": {
+            "id": "menu-item-brand-51-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Thumbs Up",
+                "noFollow": false,
+                "tagTitle": "Thumbs Up",
+                "text": "Thumbs Up"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand52-mob": {
+        "props": {
+            "id": "menu-item-brand-52-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Trejo",
+                "noFollow": false,
+                "tagTitle": "Trejo",
+                "text": "Trejo"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand53-mob": {
+        "props": {
+            "id": "menu-item-brand-53-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Vee Ruber",
+                "noFollow": false,
+                "tagTitle": "Vee Ruber",
+                "text": "Vee Ruber"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand54-mob": {
+        "props": {
+            "id": "menu-item-brand-54-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Veloci",
+                "noFollow": false,
+                "tagTitle": "Veloci",
+                "text": "Veloci"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand55-mob": {
+        "props": {
+            "id": "menu-item-brand-55-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Vuelta Italia",
+                "noFollow": false,
+                "tagTitle": "Vuelta Italia",
+                "text": "Vuelta Italia"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand56-mob": {
+        "props": {
+            "id": "menu-item-brand-56-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Zéfal",
+                "noFollow": false,
+                "tagTitle": "Zéfal",
+                "text": "Zéfal"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand57-mob": {
+        "props": {
+            "id": "menu-item-brand-57-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Alvas",
+                "noFollow": false,
+                "tagTitle": "Alvas",
+                "text": "Alvas"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand58-mob": {
+        "props": {
+            "id": "menu-item-brand-58-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Elleven",
+                "noFollow": false,
+                "tagTitle": "Elleven",
+                "text": "Elleven"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    },
+    "menu-item#itembrand59-mob": {
+        "props": {
+            "id": "menu-item-brand-59-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/SHIMANO",
+                "noFollow": false,
+                "tagTitle": "SHIMANO",
+                "text": "SHIMANO"
+            },
+            "blockClass": [
+                "estilo"
+            ]
+        }
+    }
+}

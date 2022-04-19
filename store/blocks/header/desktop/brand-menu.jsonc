@@ -1,0 +1,1099 @@
+{
+  "vtex.menu@2.x:submenu#brand": {
+    "props": {
+      "width": "auto",
+      "blockClass": "cont-submenu-desktop"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#brand"
+    ]
+  },
+  "vtex.menu@2.x:menu#brand": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#row-brand"
+      
+    ]
+  },
+  "flex-layout.row#row-brand": {
+    "children": [
+      "flex-layout.col#itembrand1",
+      "flex-layout.col#itembrand2",
+      "flex-layout.col#itembrand3",
+      "flex-layout.col#itembrand4",
+      "flex-layout.col#itembrand5",
+      "flex-layout.col#itembrand6"
+    ],
+    "props": {
+      "blockClass": "row-brands-menprin",
+      "fullWdith": true,
+      "colSizing": "auto",
+      "colGap": 2,
+      "horizontalAlign": "center"
+    }
+  },
+
+  // ----------------------------- Inicio COL 1 -----------------------------
+
+  "flex-layout.col#itembrand1": {
+    "children": [
+      "menu-item#itembrand1",
+      "menu-item#itembrand2",
+      "menu-item#itembrand3",
+      "menu-item#itembrand4",
+      "menu-item#itembrand5",
+      "menu-item#itembrand6",
+      "menu-item#itembrand7",
+      "menu-item#itembrand8",
+      "menu-item#itembrand9",
+      "menu-item#itembrand10"
+    ]
+  },
+  "menu-item#itembrand1": {
+    "props": {
+      "id": "menu-item-brand-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Alubike",
+        "noFollow": false,
+        "tagTitle": "Alubike",
+        "text": "Alubike"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand2": {
+    "props": {
+      "id": "menu-item-brand-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Benotto",
+        "noFollow": false,
+        "tagTitle": "Benotto",
+        "text": "Benotto"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand3": {
+    "props": {
+      "id": "menu-item-brand-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camelback",
+        "noFollow": false,
+        "tagTitle": "Camelback",
+        "text": "Camelback"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand4": {
+    "props": {
+      "id": "menu-item-brand-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Continental",
+        "noFollow": false,
+        "tagTitle": "Continental",
+        "text": "Continental"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand5": {
+    "props": {
+      "id": "menu-item-brand-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/CrankBrothers",
+        "noFollow": false,
+        "tagTitle": "CrankBrothers",
+        "text": "CrankBrothers"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand6": {
+    "props": {
+      "id": "menu-item-brand-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/CST",
+        "noFollow": false,
+        "tagTitle": "CST",
+        "text": "CST"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand7": {
+    "props": {
+      "id": "menu-item-brand-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Giant",
+        "noFollow": false,
+        "tagTitle": "Giant",
+        "text": "Giant"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand8": {
+    "props": {
+      "id": "menu-item-brand-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Giro",
+        "noFollow": false,
+        "tagTitle": "Giro",
+        "text": "Giro"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand9": {
+    "props": {
+      "id": "menu-item-brand-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kali Protectives",
+        "noFollow": false,
+        "tagTitle": "Kali Protectives",
+        "text": "Kali Protectives"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand10": {
+    "props": {
+      "id": "menu-item-brand-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Karma",
+        "noFollow": false,
+        "tagTitle": "Karma",
+        "text": "Karma"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+
+  // ----------------------------- Final COL 1 -----------------------------
+
+
+  // ----------------------------- Inicio COL 2 -----------------------------
+
+  "flex-layout.col#itembrand2": {
+    "children": [
+      "menu-item#itembrand11",
+      "menu-item#itembrand12",
+      "menu-item#itembrand13",
+      "menu-item#itembrand14",
+      "menu-item#itembrand15",
+      "menu-item#itembrand16",
+      "menu-item#itembrand17",
+      "menu-item#itembrand18",
+      "menu-item#itembrand19",
+      "menu-item#itembrand20"
+    ]
+  },
+  "menu-item#itembrand11": {
+    "props": {
+      "id": "menu-item-brand-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kenda",
+        "noFollow": false,
+        "tagTitle": "Kenda",
+        "text": "Kenda"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand12": {
+    "props": {
+      "id": "menu-item-brand-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/KMC",
+        "noFollow": false,
+        "tagTitle": "KMC",
+        "text": "KMC"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand13": {
+    "props": {
+      "id": "menu-item-brand-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lazer",
+        "noFollow": false,
+        "tagTitle": "Lazer",
+        "text": "Lazer"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand14": {
+    "props": {
+      "id": "menu-item-brand-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Liv",
+        "noFollow": false,
+        "tagTitle": "Liv",
+        "text": "Liv"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand15": {
+    "props": {
+      "id": "menu-item-brand-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lizard Skins",
+        "noFollow": false,
+        "tagTitle": "Lizard Skins",
+        "text": "Lizard Skins"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand16": {
+    "props": {
+      "id": "menu-item-brand-16",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Maxxis",
+        "noFollow": false,
+        "tagTitle": "Maxxis",
+        "text": "Maxxis"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand17": {
+    "props": {
+      "id": "menu-item-brand-17",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Mercurio",
+        "noFollow": false,
+        "tagTitle": "Mercurio",
+        "text": "Mercurio"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand18": {
+    "props": {
+      "id": "menu-item-brand-18",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Met",
+        "noFollow": false,
+        "tagTitle": "Met",
+        "text": "Met"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand19": {
+    "props": {
+      "id": "menu-item-brand-19",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Michellin",
+        "noFollow": false,
+        "tagTitle": "Michellin",
+        "text": "Michellin"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand20": {
+    "props": {
+      "id": "menu-item-brand-20",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Windsor",
+        "noFollow": false,
+        "tagTitle": "Windsor",
+        "text": "Windsor"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+
+  // ----------------------------- Final COL 2 -----------------------------
+
+
+  // ----------------------------- Inicio COL 3 -----------------------------
+
+  "flex-layout.col#itembrand3": {
+    "children": [
+      "menu-item#itembrand21",
+      "menu-item#itembrand22",
+      "menu-item#itembrand23",
+      "menu-item#itembrand24",
+      "menu-item#itembrand25",
+      "menu-item#itembrand26",
+      "menu-item#itembrand27",
+      "menu-item#itembrand28",
+      "menu-item#itembrand29",
+      "menu-item#itembrand30"
+    ]
+  },
+  "menu-item#itembrand21": {
+    "props": {
+      "id": "menu-item-brand-21",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Zoom",
+        "noFollow": false,
+        "tagTitle": "Zoom",
+        "text": "Zoom"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand22": {
+    "props": {
+      "id": "menu-item-brand-22",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Alex Rims",
+        "noFollow": false,
+        "tagTitle": "Alex Rims",
+        "text": "Alex Rims"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand23": {
+    "props": {
+      "id": "menu-item-brand-23",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Alhonga",
+        "noFollow": false,
+        "tagTitle": "Alhonga",
+        "text": "Alhonga"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand24": {
+    "props": {
+      "id": "menu-item-brand-24",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/All Time",
+        "noFollow": false,
+        "tagTitle": "All Time",
+        "text": "All Time"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand25": {
+    "props": {
+      "id": "menu-item-brand-25",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tacx",
+        "noFollow": false,
+        "tagTitle": "Tacx",
+        "text": "Tacx"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand26": {
+    "props": {
+      "id": "menu-item-brand-26",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Topeak",
+        "noFollow": false,
+        "tagTitle": "Topeak",
+        "text": "Topeak"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand27": {
+    "props": {
+      "id": "menu-item-brand-27",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Vital",
+        "noFollow": false,
+        "tagTitle": "Vital",
+        "text": "Vital"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand28": {
+    "props": {
+      "id": "menu-item-brand-28",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Wander",
+        "noFollow": false,
+        "tagTitle": "Wander",
+        "text": "Wander"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand29": {
+    "props": {
+      "id": "menu-item-brand-29",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Arisun",
+        "noFollow": false,
+        "tagTitle": "Arisun",
+        "text": "Arisun"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand30": {
+    "props": {
+      "id": "menu-item-brand-30",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Bike Hand",
+        "noFollow": false,
+        "tagTitle": "Bike Hand",
+        "text": "Bike Hand"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  
+  // ----------------------------- Final COL 3 -----------------------------
+
+
+  // ----------------------------- Inicio COL 4 -----------------------------
+
+  "flex-layout.col#itembrand4": {
+    "children": [
+      "menu-item#itembrand31",
+      "menu-item#itembrand32",
+      "menu-item#itembrand33",
+      "menu-item#itembrand34",
+      "menu-item#itembrand35",
+      "menu-item#itembrand36",
+      "menu-item#itembrand37",
+      "menu-item#itembrand38",
+      "menu-item#itembrand39",
+      "menu-item#itembrand40"
+    ]
+  },
+  "menu-item#itembrand31": {
+    "props": {
+      "id": "menu-item-brand-31",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Clarks",
+        "noFollow": false,
+        "tagTitle": "Clarks",
+        "text": "Clarks"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand32": {
+    "props": {
+      "id": "menu-item-brand-32",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Duratrex",
+        "noFollow": false,
+        "tagTitle": "Duratrex",
+        "text": "Duratrex"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand33": {
+    "props": {
+      "id": "menu-item-brand-33",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Elite",
+        "noFollow": false,
+        "tagTitle": "Elite",
+        "text": "Elite"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand34": {
+    "props": {
+      "id": "menu-item-brand-34",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Fabric",
+        "noFollow": false,
+        "tagTitle": "Fabric",
+        "text": "Fabric"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand35": {
+    "props": {
+      "id": "menu-item-brand-35",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FSA",
+        "noFollow": false,
+        "tagTitle": "FSA",
+        "text": "FSA"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand36": {
+    "props": {
+      "id": "menu-item-brand-36",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ghost",
+        "noFollow": false,
+        "tagTitle": "Ghost",
+        "text": "Ghost"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand37": {
+    "props": {
+      "id": "menu-item-brand-37",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hard Line",
+        "noFollow": false,
+        "tagTitle": "Hard Line",
+        "text": "Hard Line"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand38": {
+    "props": {
+      "id": "menu-item-brand-38",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hunter",
+        "noFollow": false,
+        "tagTitle": "Hunter",
+        "text": "Hunter"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand39": {
+    "props": {
+      "id": "menu-item-brand-39",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lezyne",
+        "noFollow": false,
+        "tagTitle": "Lezyne",
+        "text": "Lezyne"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand40": {
+    "props": {
+      "id": "menu-item-brand-40",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lotus",
+        "noFollow": false,
+        "tagTitle": "Lotus",
+        "text": "Lotus"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  
+  // ----------------------------- Final COL 4 -----------------------------
+
+
+  // ----------------------------- Inicio COL 5 -----------------------------
+
+  "flex-layout.col#itembrand5": {
+    "children": [
+      "menu-item#itembrand41",
+      "menu-item#itembrand42",
+      "menu-item#itembrand43",
+      "menu-item#itembrand44",
+      "menu-item#itembrand45",
+      "menu-item#itembrand46",
+      "menu-item#itembrand47",
+      "menu-item#itembrand48",
+      "menu-item#itembrand49",
+      "menu-item#itembrand50"
+    ]
+  },
+  "menu-item#itembrand41": {
+    "props": {
+      "id": "menu-item-brand-41",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ontrack",
+        "noFollow": false,
+        "tagTitle": "Ontrack",
+        "text": "Ontrack"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand42": {
+    "props": {
+      "id": "menu-item-brand-42",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Prowheel",
+        "noFollow": false,
+        "tagTitle": "Prowheel",
+        "text": "Prowheel"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand43": {
+    "props": {
+      "id": "menu-item-brand-43",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Roller",
+        "noFollow": false,
+        "tagTitle": "Roller",
+        "text": "Roller"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand44": {
+    "props": {
+      "id": "menu-item-brand-44",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Selle Royal",
+        "noFollow": false,
+        "tagTitle": "Selle Royal",
+        "text": "Selle Royal"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand45": {
+    "props": {
+      "id": "menu-item-brand-45",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Serfas",
+        "noFollow": false,
+        "tagTitle": "Serfas",
+        "text": "Serfas"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand46": {
+    "props": {
+      "id": "menu-item-brand-46",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Shimano SSC",
+        "noFollow": false,
+        "tagTitle": "Shimano SSC",
+        "text": "Shimano SSC"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand47": {
+    "props": {
+      "id": "menu-item-brand-47",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Sram",
+        "noFollow": false,
+        "tagTitle": "Sram",
+        "text": "Sram"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand48": {
+    "props": {
+      "id": "menu-item-brand-48",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Sun Race",
+        "noFollow": false,
+        "tagTitle": "Sun Race",
+        "text": "Sun Race"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand49": {
+    "props": {
+      "id": "menu-item-brand-49",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Suntour",
+        "noFollow": false,
+        "tagTitle": "Suntour",
+        "text": "Suntour"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand50": {
+    "props": {
+      "id": "menu-item-brand-50",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tec",
+        "noFollow": false,
+        "tagTitle": "Tec",
+        "text": "Tec"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  
+  // ----------------------------- Final COL 5 -----------------------------
+
+
+  // ----------------------------- Inicio COL 6 -----------------------------
+
+  "flex-layout.col#itembrand6": {
+    "children": [
+      "menu-item#itembrand51",
+      "menu-item#itembrand52",
+      "menu-item#itembrand53",
+      "menu-item#itembrand54",
+      "menu-item#itembrand55",
+      "menu-item#itembrand56",
+      "menu-item#itembrand57",
+      "menu-item#itembrand58",
+      "menu-item#itembrand59"
+    ]
+  },
+  "menu-item#itembrand51": {
+    "props": {
+      "id": "menu-item-brand-51",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Thumbs Up",
+        "noFollow": false,
+        "tagTitle": "Thumbs Up",
+        "text": "Thumbs Up"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand52": {
+    "props": {
+      "id": "menu-item-brand-52",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Trejo",
+        "noFollow": false,
+        "tagTitle": "Trejo",
+        "text": "Trejo"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand53": {
+    "props": {
+      "id": "menu-item-brand-53",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Vee Ruber",
+        "noFollow": false,
+        "tagTitle": "Vee Ruber",
+        "text": "Vee Ruber"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand54": {
+    "props": {
+      "id": "menu-item-brand-54",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Veloci",
+        "noFollow": false,
+        "tagTitle": "Veloci",
+        "text": "Veloci"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand55": {
+    "props": {
+      "id": "menu-item-brand-55",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Vuelta Italia",
+        "noFollow": false,
+        "tagTitle": "Vuelta Italia",
+        "text": "Vuelta Italia"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand56": {
+    "props": {
+      "id": "menu-item-brand-56",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Zéfal",
+        "noFollow": false,
+        "tagTitle": "Zéfal",
+        "text": "Zéfal"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand57": {
+    "props": {
+      "id": "menu-item-brand-57",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Alvas",
+        "noFollow": false,
+        "tagTitle": "Alvas",
+        "text": "Alvas"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand58": {
+    "props": {
+      "id": "menu-item-brand-48",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Elleven",
+        "noFollow": false,
+        "tagTitle": "Elleven",
+        "text": "Elleven"
+      },
+      "blockClass": "brand-menu"
+    }
+  },
+  "menu-item#itembrand59": {
+    "props": {
+      "id": "menu-item-brand-59",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/SHIMANO",
+        "noFollow": false,
+        "tagTitle": "SHIMANO",
+        "text": "SHIMANO"
+      },
+      "blockClass": "brand-menu"
+    }
+  }
+  
+  // ----------------------------- Final COL 6 -----------------------------
+}
